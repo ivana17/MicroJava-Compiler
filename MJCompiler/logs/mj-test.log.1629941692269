@@ -1,0 +1,301 @@
+INFO  03:28:57,274 - Compiling source file: C:\Users\Ogi\Desktop\workspace\MJCompiler\test\program.mj
+INFO  03:28:57,308 - #2 program
+INFO  03:28:57,308 - #9 MJProgram
+INFO  03:28:57,308 - #9 int
+INFO  03:28:57,309 - #9 x
+INFO  03:28:57,309 - #28 ;
+INFO  03:28:57,310 - #9 int
+INFO  03:28:57,310 - #9 y
+INFO  03:28:57,310 - #28 ;
+INFO  03:28:57,310 - #21 {
+INFO  03:28:57,310 - #9 int
+INFO  03:28:57,311 - #9 k
+INFO  03:28:57,311 - #30 (
+INFO  03:28:57,311 - #31 )
+INFO  03:28:57,312 - #9 int
+INFO  03:28:57,312 - #9 c
+INFO  03:28:57,312 - #28 ;
+INFO  03:28:57,312 - #21 {
+INFO  03:28:57,312 - #9 c
+INFO  03:28:57,313 - #25 =
+INFO  03:28:57,313 - #10 2
+INFO  03:28:57,313 - #28 ;
+INFO  03:28:57,314 - #37 return
+INFO  03:28:57,315 - #9 c
+INFO  03:28:57,315 - #14 +
+INFO  03:28:57,315 - #10 2
+INFO  03:28:57,315 - #28 ;
+INFO  03:28:57,316 - #22 }
+INFO  03:28:57,316 - #9 int
+INFO  03:28:57,316 - #9 main
+INFO  03:28:57,316 - #30 (
+INFO  03:28:57,316 - #31 )
+INFO  03:28:57,317 - #21 {
+INFO  03:28:57,317 - #3 print
+INFO  03:28:57,317 - #30 (
+INFO  03:28:57,317 - #10 1
+INFO  03:28:57,317 - #31 )
+INFO  03:28:57,317 - #28 ;
+INFO  03:28:57,317 - #9 x
+INFO  03:28:57,317 - #25 =
+INFO  03:28:57,317 - #10 5
+INFO  03:28:57,317 - #28 ;
+INFO  03:28:57,317 - #4 read
+INFO  03:28:57,317 - #30 (
+INFO  03:28:57,317 - #9 x
+INFO  03:28:57,317 - #23 [
+INFO  03:28:57,317 - #9 y
+INFO  03:28:57,317 - #24 ]
+INFO  03:28:57,317 - #31 )
+INFO  03:28:57,318 - #28 ;
+INFO  03:28:57,318 - #3 print
+INFO  03:28:57,318 - #30 (
+INFO  03:28:57,318 - #9 x
+INFO  03:28:57,318 - #14 +
+INFO  03:28:57,318 - #9 y
+INFO  03:28:57,318 - #31 )
+INFO  03:28:57,318 - #28 ;
+INFO  03:28:57,318 - #37 return
+INFO  03:28:57,318 - #10 1
+INFO  03:28:57,318 - #28 ;
+INFO  03:28:57,318 - #22 }
+INFO  03:28:57,319 - #22 }
+INFO  03:28:57,335 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      NoVarDecl(
+      ) [NoVarDecl]
+      ProgVar(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDecl_0(
+            Variable(
+             x
+            ) [Variable]
+          ) [VarDecl_0]
+        ) [VarDecl]
+      ) [ProgVar]
+    ) [VarDeclarations]
+    ProgVar(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarDecl_0(
+          Variable(
+           y
+          ) [Variable]
+        ) [VarDecl_0]
+      ) [VarDecl]
+    ) [ProgVar]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDecl(
+        MethodTypeName(
+          Type(
+           int
+          ) [Type]
+         k
+        ) [MethodTypeName]
+        FormParsParens(
+          NoFormalParam(
+          ) [NoFormalParam]
+        ) [FormParsParens]
+        VarDeclarations(
+          NoVarDecl(
+          ) [NoVarDecl]
+          ProgVar(
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              VarDecl_0(
+                Variable(
+                 c
+                ) [Variable]
+              ) [VarDecl_0]
+            ) [VarDecl]
+          ) [ProgVar]
+        ) [VarDeclarations]
+        Statements(
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            MatchedStmt(
+              DesignatorStatement(
+                Assignment(
+                  Designator_1(
+                   c
+                  ) [Designator_1]
+                  TermExpr(
+                    FactorTerm(
+                      ValFactor(
+                        NumConst(
+                         2
+                        ) [NumConst]
+                      ) [ValFactor]
+                    ) [FactorTerm]
+                  ) [TermExpr]
+                ) [Assignment]
+              ) [DesignatorStatement]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            ReturnExpr(
+              AddExpr(
+                FactorTerm(
+                  VarFactor(
+                    Designator_1(
+                     c
+                    ) [Designator_1]
+                  ) [VarFactor]
+                ) [FactorTerm]
+                Addop(
+                ) [Addop]
+                TermExpr(
+                  FactorTerm(
+                    ValFactor(
+                      NumConst(
+                       2
+                      ) [NumConst]
+                    ) [ValFactor]
+                  ) [FactorTerm]
+                ) [TermExpr]
+              ) [AddExpr]
+            ) [ReturnExpr]
+          ) [MatchedStmt]
+        ) [Statements]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethodTypeName]
+      FormParsParens(
+        NoFormalParam(
+        ) [NoFormalParam]
+      ) [FormParsParens]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                NoStmt(
+                ) [NoStmt]
+                MatchedStmt(
+                  PrintStmt(
+                    TermExpr(
+                      FactorTerm(
+                        ValFactor(
+                          NumConst(
+                           1
+                          ) [NumConst]
+                        ) [ValFactor]
+                      ) [FactorTerm]
+                    ) [TermExpr]
+                  ) [PrintStmt]
+                ) [MatchedStmt]
+              ) [Statements]
+              MatchedStmt(
+                DesignatorStatement(
+                  Assignment(
+                    Designator_1(
+                     x
+                    ) [Designator_1]
+                    TermExpr(
+                      FactorTerm(
+                        ValFactor(
+                          NumConst(
+                           5
+                          ) [NumConst]
+                        ) [ValFactor]
+                      ) [FactorTerm]
+                    ) [TermExpr]
+                  ) [Assignment]
+                ) [DesignatorStatement]
+              ) [MatchedStmt]
+            ) [Statements]
+            MatchedStmt(
+              StmtRead(
+                Designator_0(
+                 x
+                  TermExpr(
+                    FactorTerm(
+                      VarFactor(
+                        Designator_1(
+                         y
+                        ) [Designator_1]
+                      ) [VarFactor]
+                    ) [FactorTerm]
+                  ) [TermExpr]
+                ) [Designator_0]
+              ) [StmtRead]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            PrintStmt(
+              AddExpr(
+                FactorTerm(
+                  VarFactor(
+                    Designator_1(
+                     x
+                    ) [Designator_1]
+                  ) [VarFactor]
+                ) [FactorTerm]
+                Addop(
+                ) [Addop]
+                TermExpr(
+                  FactorTerm(
+                    VarFactor(
+                      Designator_1(
+                       y
+                      ) [Designator_1]
+                    ) [VarFactor]
+                  ) [FactorTerm]
+                ) [TermExpr]
+              ) [AddExpr]
+            ) [PrintStmt]
+          ) [MatchedStmt]
+        ) [Statements]
+        MatchedStmt(
+          ReturnExpr(
+            TermExpr(
+              FactorTerm(
+                ValFactor(
+                  NumConst(
+                   1
+                  ) [NumConst]
+                ) [ValFactor]
+              ) [FactorTerm]
+            ) [TermExpr]
+          ) [ReturnExpr]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  03:28:57,336 - ===================================
+INFO  03:28:57,340 - Deklarisana promenljiva x na liniji 2
+INFO  03:28:57,341 - Deklarisana promenljiva y na liniji 2
+INFO  03:28:57,341 - Obradjuje se funkcija k na liniji 5
+INFO  03:28:57,341 - Deklarisana promenljiva c na liniji 5
+INFO  03:28:57,344 - Obradjuje se funkcija main na liniji 10
+ERROR 03:28:57,344 - Semanticka greska - ime x se ocekuje da bude niz na liniji 14
+ERROR 03:28:57,344 - Semanticka greska - argument read naredbe nije promenljiva ili element niza na liniji 14
+INFO  03:28:57,344 -  Print count calls = 2
+INFO  03:28:57,344 -  Deklarisanih promenljivih ima = 3
+INFO  03:28:57,344 - ===================================
+ERROR 03:28:57,345 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,23 @@
+program MJProgram 
+
+{
+	void main() bool x, y;
+	{
+		
+		x = true;
+		y = false;
+		
+		if( x && y || y && y && x || y && y && x ){ 	
+			print(1);
+		} 
+		else {
+			print(2);
+		}
+		
+	}
+	
+}
+
+
+
+

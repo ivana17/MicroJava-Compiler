@@ -1,0 +1,78 @@
+INFO  17:29:37,043 - Compiling source file: C:\Users\Ogi\Desktop\workspace\MJCompiler\test\program.mj
+INFO  17:29:37,078 - #2 program
+INFO  17:29:37,078 - #9 MJProgram
+INFO  17:29:37,078 - #9 int
+INFO  17:29:37,079 - #9 x
+INFO  17:29:37,080 - #29 ,
+INFO  17:29:37,080 - #9 y
+INFO  17:29:37,080 - #23 [
+INFO  17:29:37,080 - #24 ]
+INFO  17:29:37,080 - #29 ,
+INFO  17:29:37,080 - #9 z
+INFO  17:29:37,081 - #28 ;
+INFO  17:29:37,081 - #5 const
+INFO  17:29:37,081 - #9 char
+INFO  17:29:37,081 - #9 i
+INFO  17:29:37,082 - #25 =
+INFO  17:29:37,082 - #11 w
+INFO  17:29:37,082 - #28 ;
+INFO  17:29:37,082 - #21 {
+INFO  17:29:37,083 - #22 }
+INFO  17:29:37,095 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  Declarations(
+    Declarations(
+      NoDecls(
+      ) [NoDecls]
+      ProgVar(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDecl_1(
+            VarDecl_1(
+              VarDecl_0(
+                Variable(
+                 x
+                ) [Variable]
+              ) [VarDecl_0]
+              VarArray(
+               y
+              ) [VarArray]
+            ) [VarDecl_1]
+            Variable(
+             z
+            ) [Variable]
+          ) [VarDecl_1]
+        ) [VarDecl]
+      ) [ProgVar]
+    ) [Declarations]
+    ProgConst(
+      ConstDecl(
+        Type(
+         char
+        ) [Type]
+        ConstDecl_0(
+          SingleConst(
+           i
+            CharConst(
+             w
+            ) [CharConst]
+          ) [SingleConst]
+        ) [ConstDecl_0]
+      ) [ConstDecl]
+    ) [ProgConst]
+  ) [Declarations]
+  NoMethodDecl(
+  ) [NoMethodDecl]
+) [Program]
+INFO  17:29:37,097 - ===================================
+INFO  17:29:37,100 - Deklarisana promenljiva x (tip: int) na liniji 2
+INFO  17:29:37,100 - Deklarisan niz y (tip: int) na liniji 2
+INFO  17:29:37,100 - Deklarisana promenljiva z (tip: int) na liniji 2
+INFO  17:29:37,101 - Deklarisana konstanta i (tip: char, vrednost: w) na liniji 3
+ERROR 17:29:37,101 - Semanticka greska - funkcija main nije pronadjena
+INFO  17:29:37,101 - ===================================
+ERROR 17:29:37,101 - Parsiranje NIJE uspesno zavrseno!

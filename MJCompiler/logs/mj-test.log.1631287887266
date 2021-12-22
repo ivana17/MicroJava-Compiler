@@ -1,0 +1,97 @@
+INFO  17:31:01,767 - Compiling source file: C:\Users\Ogi\Desktop\workspace\MJCompiler\test\program.mj
+INFO  17:31:01,802 - #2 program
+INFO  17:31:01,802 - #9 MJProgram
+INFO  17:31:01,802 - #9 int
+INFO  17:31:01,803 - #9 x
+INFO  17:31:01,803 - #29 ,
+INFO  17:31:01,804 - #9 y
+INFO  17:31:01,804 - #23 [
+INFO  17:31:01,804 - #24 ]
+INFO  17:31:01,804 - #29 ,
+INFO  17:31:01,804 - #9 z
+INFO  17:31:01,804 - #28 ;
+INFO  17:31:01,804 - #5 const
+INFO  17:31:01,805 - #9 char
+INFO  17:31:01,805 - #9 i
+INFO  17:31:01,805 - #25 =
+INFO  17:31:01,805 - #11 w
+INFO  17:31:01,805 - #28 ;
+INFO  17:31:01,806 - #21 {
+INFO  17:31:01,806 - #6 void
+INFO  17:31:01,807 - #9 main
+INFO  17:31:01,807 - #30 (
+INFO  17:31:01,807 - #31 )
+INFO  17:31:01,807 - #21 {
+INFO  17:31:01,808 - #22 }
+INFO  17:31:01,808 - #22 }
+INFO  17:31:01,820 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  Declarations(
+    Declarations(
+      NoDecls(
+      ) [NoDecls]
+      ProgVar(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDecl_1(
+            VarDecl_1(
+              VarDecl_0(
+                Variable(
+                 x
+                ) [Variable]
+              ) [VarDecl_0]
+              VarArray(
+               y
+              ) [VarArray]
+            ) [VarDecl_1]
+            Variable(
+             z
+            ) [Variable]
+          ) [VarDecl_1]
+        ) [VarDecl]
+      ) [ProgVar]
+    ) [Declarations]
+    ProgConst(
+      ConstDecl(
+        Type(
+         char
+        ) [Type]
+        ConstDecl_0(
+          SingleConst(
+           i
+            CharConst(
+             w
+            ) [CharConst]
+          ) [SingleConst]
+        ) [ConstDecl_0]
+      ) [ConstDecl]
+    ) [ProgConst]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodVoidType(
+       main
+      ) [MethodVoidType]
+      NoFormalParam(
+      ) [NoFormalParam]
+      NoMethodVarDecl(
+      ) [NoMethodVarDecl]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:31:01,821 - ===================================
+INFO  17:31:01,824 - Deklarisana promenljiva x (tip: int) na liniji 2
+INFO  17:31:01,824 - Deklarisan niz y (tip: int) na liniji 2
+INFO  17:31:01,824 - Deklarisana promenljiva z (tip: int) na liniji 2
+INFO  17:31:01,824 - Deklarisana konstanta i (tip: char, vrednost: w) na liniji 3
+INFO  17:31:01,824 - Obradjuje se funkcija main (povratni tip: void) na liniji 5
+INFO  17:31:01,824 - ===================================
+INFO  17:31:01,825 - Parsiranje uspesno zavrseno!

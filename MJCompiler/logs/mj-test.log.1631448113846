@@ -1,0 +1,49 @@
+INFO  14:01:27,036 - Compiling source file: C:\Users\Ogi\Desktop\workspace\MJCompiler\test\program.mj
+INFO  14:01:27,070 - #2 program
+INFO  14:01:27,071 - #9 MJProgram
+INFO  14:01:27,071 - #9 int
+INFO  14:01:27,072 - #9 x
+INFO  14:01:27,073 - #29 ,
+INFO  14:01:27,073 - #9 y
+INFO  14:01:27,073 - #23 [
+INFO  14:01:27,073 - #24 ]
+INFO  14:01:27,073 - #29 ,
+INFO  14:01:27,074 - #9 z
+INFO  14:01:27,074 - #28 ;
+INFO  14:01:27,074 - #5 const
+INFO  14:01:27,075 - #9 char
+INFO  14:01:27,075 - #9 i
+INFO  14:01:27,075 - #25 =
+INFO  14:01:27,075 - #11 w
+INFO  14:01:27,075 - #28 ;
+INFO  14:01:27,076 - #21 {
+INFO  14:01:27,076 - #6 void
+INFO  14:01:27,077 - #9 main
+INFO  14:01:27,077 - #30 (
+INFO  14:01:27,077 - #31 )
+INFO  14:01:27,078 - #21 {
+INFO  14:01:27,079 - #22 }
+INFO  14:01:27,079 - #6 void
+INFO  14:01:27,080 - #9 f
+INFO  14:01:27,080 - #30 (
+INFO  14:01:27,080 - #9 int
+INFO  14:01:27,080 - #9 x
+INFO  14:01:27,080 - #31 )
+INFO  14:01:27,080 - #9 char
+INFO  14:01:27,080 - #9 y
+INFO  14:01:27,080 - #28 ;
+INFO  14:01:27,080 - #5 const
+ERROR 14:01:27,080 - 
+Sintaksna greska na liniji 9
+INFO  14:01:27,081 - #9 bool
+INFO  14:01:27,081 - #9 z
+INFO  14:01:27,081 - #25 =
+INFO  14:01:27,081 - #8 true
+INFO  14:01:27,081 - #28 ;
+INFO  14:01:27,081 - #21 {
+INFO  14:01:27,082 - #22 }
+INFO  14:01:27,082 - #22 }
+ERROR 14:01:27,082 - Izvrsen oporavak od greske (varDecl) do ; 
+ERROR 14:01:27,082 - 
+Sintaksna greska na liniji 10
+ERROR 14:01:27,083 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 10

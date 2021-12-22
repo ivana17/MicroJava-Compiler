@@ -1,0 +1,59 @@
+INFO  19:46:57,932 - Compiling source file: C:\Users\Ogi\Desktop\workspace\MJCompiler\test\program.mj
+INFO  19:46:57,970 - #2 program
+INFO  19:46:57,971 - #9 test301
+INFO  19:46:57,971 - #21 {
+INFO  19:46:57,971 - #6 void
+INFO  19:46:57,972 - #9 main
+INFO  19:46:57,972 - #30 (
+INFO  19:46:57,972 - #31 )
+INFO  19:46:57,973 - #21 {
+INFO  19:46:57,973 - #3 print
+INFO  19:46:57,973 - #30 (
+INFO  19:46:57,974 - #11 a
+INFO  19:46:57,974 - #31 )
+INFO  19:46:57,975 - #28 ;
+INFO  19:46:57,976 - #22 }
+INFO  19:46:57,976 - #22 }
+INFO  19:46:57,989 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoDecls(
+  ) [NoDecls]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodVoidType(
+       main
+      ) [MethodVoidType]
+      NoFormalParam(
+      ) [NoFormalParam]
+      NoMethodVarDecl(
+      ) [NoMethodVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        MatchedStmt(
+          StmtPrint(
+            PosExpr(
+              Term(
+                FactorCharConst(
+                 a
+                ) [FactorCharConst]
+                NoMoreFactor(
+                ) [NoMoreFactor]
+              ) [Term]
+              NoMoreTerm(
+              ) [NoMoreTerm]
+            ) [PosExpr]
+          ) [StmtPrint]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  19:46:57,990 - ===================================
+INFO  19:46:57,993 - Obradjuje se funkcija main (povratni tip: void) na liniji 7
+INFO  19:46:57,993 - ===================================
+INFO  19:46:57,998 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,272 @@
+INFO  17:52:59,585 - Compiling source file: C:\Users\Ogi\Desktop\workspace\MJCompiler\test\program.mj
+INFO  17:52:59,618 - #2 program
+INFO  17:52:59,618 - #9 MJProgram
+INFO  17:52:59,618 - #9 int
+INFO  17:52:59,620 - #9 x
+INFO  17:52:59,620 - #28 ;
+INFO  17:52:59,620 - #9 int
+INFO  17:52:59,621 - #9 y
+INFO  17:52:59,621 - #23 [
+INFO  17:52:59,621 - #24 ]
+INFO  17:52:59,621 - #28 ;
+INFO  17:52:59,621 - #5 const
+INFO  17:52:59,621 - #9 int
+INFO  17:52:59,621 - #9 N
+INFO  17:52:59,621 - #25 =
+INFO  17:52:59,622 - #10 10
+INFO  17:52:59,622 - #28 ;
+INFO  17:52:59,622 - #21 {
+INFO  17:52:59,623 - #6 void
+INFO  17:52:59,623 - #9 main
+INFO  17:52:59,623 - #30 (
+INFO  17:52:59,624 - #31 )
+INFO  17:52:59,624 - #21 {
+INFO  17:52:59,626 - #9 y
+INFO  17:52:59,626 - #25 =
+INFO  17:52:59,626 - #7 new
+INFO  17:52:59,626 - #9 int
+INFO  17:52:59,626 - #23 [
+INFO  17:52:59,627 - #9 N
+INFO  17:52:59,627 - #24 ]
+INFO  17:52:59,628 - #28 ;
+INFO  17:52:59,628 - #9 y
+INFO  17:52:59,629 - #23 [
+INFO  17:52:59,629 - #10 2
+INFO  17:52:59,629 - #24 ]
+INFO  17:52:59,629 - #25 =
+INFO  17:52:59,629 - #10 6
+INFO  17:52:59,629 - #14 +
+INFO  17:52:59,629 - #9 N
+INFO  17:52:59,630 - #14 +
+INFO  17:52:59,631 - #10 2
+INFO  17:52:59,631 - #16 *
+INFO  17:52:59,631 - #30 (
+INFO  17:52:59,632 - #9 y
+INFO  17:52:59,632 - #23 [
+INFO  17:52:59,632 - #10 2
+INFO  17:52:59,632 - #24 ]
+INFO  17:52:59,632 - #26 ++
+ERROR 17:52:59,632 - 
+Sintaksna greska na liniji 12
+INFO  17:52:59,632 - #14 +
+INFO  17:52:59,632 - #10 1
+INFO  17:52:59,632 - #31 )
+INFO  17:52:59,633 - #28 ;
+INFO  17:52:59,633 - #3 print
+INFO  17:52:59,633 - #30 (
+ERROR 17:52:59,633 - Izvrsen oporavak od greske (Expr) do ; 
+INFO  17:52:59,633 - #9 y
+INFO  17:52:59,634 - #23 [
+INFO  17:52:59,634 - #10 2
+INFO  17:52:59,634 - #24 ]
+INFO  17:52:59,634 - #31 )
+INFO  17:52:59,634 - #28 ;
+INFO  17:52:59,634 - #22 }
+INFO  17:52:59,634 - #22 }
+INFO  17:52:59,648 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  Declarations(
+    Declarations(
+      Declarations(
+        NoDecls(
+        ) [NoDecls]
+        ProgVar(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarDecl_0(
+              Variable(
+               x
+              ) [Variable]
+            ) [VarDecl_0]
+          ) [VarDecl]
+        ) [ProgVar]
+      ) [Declarations]
+      ProgVar(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDecl_0(
+            VarArray(
+             y
+            ) [VarArray]
+          ) [VarDecl_0]
+        ) [VarDecl]
+      ) [ProgVar]
+    ) [Declarations]
+    ProgConst(
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        ConstDecl_0(
+          SingleConst(
+           N
+            NumConst(
+             10
+            ) [NumConst]
+          ) [SingleConst]
+        ) [ConstDecl_0]
+      ) [ConstDecl]
+    ) [ProgConst]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodVoidType(
+       main
+      ) [MethodVoidType]
+      NoFormalParam(
+      ) [NoFormalParam]
+      NoMethodVarDecl(
+      ) [NoMethodVarDecl]
+      Statements(
+        Statements(
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            MatchedStmt(
+              StatementDesignator(
+                Assignment(
+                  Designator_1(
+                   y
+                  ) [Designator_1]
+                  PosExpr(
+                    Term(
+                      FactorNewExpr(
+                        Type(
+                         int
+                        ) [Type]
+                        PosExpr(
+                          Term(
+                            FactorDesignator(
+                              Designator_1(
+                               N
+                              ) [Designator_1]
+                            ) [FactorDesignator]
+                            NoMoreFactor(
+                            ) [NoMoreFactor]
+                          ) [Term]
+                          NoMoreTerm(
+                          ) [NoMoreTerm]
+                        ) [PosExpr]
+                      ) [FactorNewExpr]
+                      NoMoreFactor(
+                      ) [NoMoreFactor]
+                    ) [Term]
+                    NoMoreTerm(
+                    ) [NoMoreTerm]
+                  ) [PosExpr]
+                ) [Assignment]
+              ) [StatementDesignator]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            StatementDesignator(
+              Assignment(
+                Designator_0(
+                 y
+                  PosExpr(
+                    Term(
+                      FactorNumConst(
+                       2
+                      ) [FactorNumConst]
+                      NoMoreFactor(
+                      ) [NoMoreFactor]
+                    ) [Term]
+                    NoMoreTerm(
+                    ) [NoMoreTerm]
+                  ) [PosExpr]
+                ) [Designator_0]
+                PosExpr(
+                  Term(
+                    FactorNumConst(
+                     6
+                    ) [FactorNumConst]
+                    NoMoreFactor(
+                    ) [NoMoreFactor]
+                  ) [Term]
+                  MoreTerm(
+                    MoreTerm(
+                      NoMoreTerm(
+                      ) [NoMoreTerm]
+                      Addop(
+                      ) [Addop]
+                      Term(
+                        FactorDesignator(
+                          Designator_1(
+                           N
+                          ) [Designator_1]
+                        ) [FactorDesignator]
+                        NoMoreFactor(
+                        ) [NoMoreFactor]
+                      ) [Term]
+                    ) [MoreTerm]
+                    Addop(
+                    ) [Addop]
+                    Term(
+                      FactorNumConst(
+                       2
+                      ) [FactorNumConst]
+                      MoreFactor(
+                        NoMoreFactor(
+                        ) [NoMoreFactor]
+                        Mulop(
+                        ) [Mulop]
+                        FactorExpr(
+                          ErrorExpr(
+                          ) [ErrorExpr]
+                        ) [FactorExpr]
+                      ) [MoreFactor]
+                    ) [Term]
+                  ) [MoreTerm]
+                ) [PosExpr]
+              ) [Assignment]
+            ) [StatementDesignator]
+          ) [MatchedStmt]
+        ) [Statements]
+        MatchedStmt(
+          StmtPrint(
+            PosExpr(
+              Term(
+                FactorDesignator(
+                  Designator_0(
+                   y
+                    PosExpr(
+                      Term(
+                        FactorNumConst(
+                         2
+                        ) [FactorNumConst]
+                        NoMoreFactor(
+                        ) [NoMoreFactor]
+                      ) [Term]
+                      NoMoreTerm(
+                      ) [NoMoreTerm]
+                    ) [PosExpr]
+                  ) [Designator_0]
+                ) [FactorDesignator]
+                NoMoreFactor(
+                ) [NoMoreFactor]
+              ) [Term]
+              NoMoreTerm(
+              ) [NoMoreTerm]
+            ) [PosExpr]
+          ) [StmtPrint]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:52:59,648 - ===================================
+INFO  17:52:59,652 - Deklarisana promenljiva x (tip: int) na liniji 2
+INFO  17:52:59,652 - Deklarisan niz y (tip: int) na liniji 3
+INFO  17:52:59,655 - Deklarisana konstanta N (tip: int, vrednost: 10) na liniji 4
+INFO  17:52:59,655 - Obradjuje se funkcija main (povratni tip: void) na liniji 7
+ERROR 17:52:59,655 - Semanticka greska - Samo tip int dozvoljen u operacijama *, / i % na liniji 17
+INFO  17:52:59,655 - ===================================
+ERROR 17:52:59,656 - Parsiranje NIJE uspesno zavrseno!

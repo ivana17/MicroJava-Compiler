@@ -1,0 +1,219 @@
+INFO  18:23:51,582 - Compiling source file: C:\Users\Ogi\Desktop\workspace\MJCompiler\test\program.mj
+INFO  18:23:51,613 - #2 program
+INFO  18:23:51,613 - #9 MJProgram
+INFO  18:23:51,613 - #21 {
+INFO  18:23:51,614 - #6 void
+INFO  18:23:51,614 - #9 main
+INFO  18:23:51,614 - #30 (
+INFO  18:23:51,615 - #31 )
+INFO  18:23:51,615 - #9 bool
+INFO  18:23:51,615 - #9 x
+INFO  18:23:51,616 - #29 ,
+INFO  18:23:51,616 - #9 y
+INFO  18:23:51,616 - #28 ;
+INFO  18:23:51,616 - #21 {
+INFO  18:23:51,617 - #9 x
+INFO  18:23:51,617 - #25 =
+INFO  18:23:51,618 - #8 true
+INFO  18:23:51,618 - #28 ;
+INFO  18:23:51,619 - #9 y
+INFO  18:23:51,620 - #25 =
+INFO  18:23:51,620 - #8 true
+INFO  18:23:51,620 - #28 ;
+INFO  18:23:51,620 - #32 if
+INFO  18:23:51,621 - #30 (
+INFO  18:23:51,621 - #9 x
+INFO  18:23:51,621 - #12 &&
+INFO  18:23:51,622 - #9 y
+INFO  18:23:51,622 - #31 )
+INFO  18:23:51,622 - #21 {
+INFO  18:23:51,623 - #3 print
+INFO  18:23:51,623 - #30 (
+INFO  18:23:51,623 - #10 1
+INFO  18:23:51,623 - #31 )
+INFO  18:23:51,623 - #28 ;
+INFO  18:23:51,623 - #22 }
+INFO  18:23:51,623 - #33 else
+INFO  18:23:51,624 - #21 {
+INFO  18:23:51,624 - #3 print
+INFO  18:23:51,624 - #30 (
+INFO  18:23:51,624 - #10 2
+INFO  18:23:51,624 - #31 )
+INFO  18:23:51,624 - #28 ;
+INFO  18:23:51,624 - #22 }
+INFO  18:23:51,624 - #22 }
+INFO  18:23:51,624 - #22 }
+INFO  18:23:51,637 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  NoDecls(
+  ) [NoDecls]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodVoidType(
+       main
+      ) [MethodVoidType]
+      NoFormalParam(
+      ) [NoFormalParam]
+      MethodVarDeclList(
+        NoMethodVarDecl(
+        ) [NoMethodVarDecl]
+        VarDecl(
+          Type(
+           bool
+          ) [Type]
+          VarDecl_1(
+            VarDecl_0(
+              Variable(
+               x
+              ) [Variable]
+            ) [VarDecl_0]
+            Variable(
+             y
+            ) [Variable]
+          ) [VarDecl_1]
+        ) [VarDecl]
+      ) [MethodVarDeclList]
+      Statements(
+        Statements(
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            StatementDesignator(
+              Assignment(
+                Designator_1(
+                 x
+                ) [Designator_1]
+                PosExpr(
+                  Term(
+                    FactorBoolConst(
+                     true
+                    ) [FactorBoolConst]
+                    NoMoreFactor(
+                    ) [NoMoreFactor]
+                  ) [Term]
+                  NoMoreTerm(
+                  ) [NoMoreTerm]
+                ) [PosExpr]
+              ) [Assignment]
+            ) [StatementDesignator]
+          ) [Statements]
+          StatementDesignator(
+            Assignment(
+              Designator_1(
+               y
+              ) [Designator_1]
+              PosExpr(
+                Term(
+                  FactorBoolConst(
+                   true
+                  ) [FactorBoolConst]
+                  NoMoreFactor(
+                  ) [NoMoreFactor]
+                ) [Term]
+                NoMoreTerm(
+                ) [NoMoreTerm]
+              ) [PosExpr]
+            ) [Assignment]
+          ) [StatementDesignator]
+        ) [Statements]
+        StmtIfElse(
+          IfWord(
+          ) [IfWord]
+          Cond(
+            ConditionTerm(
+              CondTermAnd(
+                CondTermFact(
+                  CondFactExpr(
+                    PosExpr(
+                      Term(
+                        FactorDesignator(
+                          Designator_1(
+                           x
+                          ) [Designator_1]
+                        ) [FactorDesignator]
+                        NoMoreFactor(
+                        ) [NoMoreFactor]
+                      ) [Term]
+                      NoMoreTerm(
+                      ) [NoMoreTerm]
+                    ) [PosExpr]
+                  ) [CondFactExpr]
+                ) [CondTermFact]
+                CondFactExpr(
+                  PosExpr(
+                    Term(
+                      FactorDesignator(
+                        Designator_1(
+                         y
+                        ) [Designator_1]
+                      ) [FactorDesignator]
+                      NoMoreFactor(
+                      ) [NoMoreFactor]
+                    ) [Term]
+                    NoMoreTerm(
+                    ) [NoMoreTerm]
+                  ) [PosExpr]
+                ) [CondFactExpr]
+              ) [CondTermAnd]
+            ) [ConditionTerm]
+          ) [Cond]
+          IfBody(
+            StmtList(
+              Statements(
+                NoStmt(
+                ) [NoStmt]
+                StmtPrint(
+                  PosExpr(
+                    Term(
+                      FactorNumConst(
+                       1
+                      ) [FactorNumConst]
+                      NoMoreFactor(
+                      ) [NoMoreFactor]
+                    ) [Term]
+                    NoMoreTerm(
+                    ) [NoMoreTerm]
+                  ) [PosExpr]
+                ) [StmtPrint]
+              ) [Statements]
+            ) [StmtList]
+          ) [IfBody]
+          StmtList(
+            Statements(
+              NoStmt(
+              ) [NoStmt]
+              StmtPrint(
+                PosExpr(
+                  Term(
+                    FactorNumConst(
+                     2
+                    ) [FactorNumConst]
+                    NoMoreFactor(
+                    ) [NoMoreFactor]
+                  ) [Term]
+                  NoMoreTerm(
+                  ) [NoMoreTerm]
+                ) [PosExpr]
+              ) [StmtPrint]
+            ) [Statements]
+          ) [StmtList]
+        ) [StmtIfElse]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:23:51,637 - ===================================
+INFO  18:23:51,640 - Obradjuje se funkcija main (povratni tip: void) na liniji 5
+INFO  18:23:51,641 - Deklarisana promenljiva x (tip: bool) na liniji 5
+INFO  18:23:51,641 - Deklarisana promenljiva y (tip: bool) na liniji 5
+INFO  18:23:51,641 - ===================================
+INFO  18:23:51,644 - Usao u if pc = 7
+INFO  18:23:51,644 - AND pc = 17 na liniji 11
+INFO  18:23:51,645 - Kraj uslova pc = 17 na liniji 11
+INFO  18:23:51,645 - Kraj if-a pc = 20 na liniji 11
+INFO  18:23:51,687 - Kraj else-a pc = 26 na liniji 11
+INFO  18:23:51,688 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,183 @@
+INFO  23:53:48,350 - Compiling source file: C:\Users\Ogi\Desktop\workspace\MJCompiler\test\program.mj
+INFO  23:53:48,384 - #2 program
+INFO  23:53:48,384 - #9 MJProgram
+INFO  23:53:48,384 - #9 int
+INFO  23:53:48,385 - #9 x
+INFO  23:53:48,386 - #28 ;
+INFO  23:53:48,386 - #9 int
+INFO  23:53:48,387 - #9 y
+INFO  23:53:48,387 - #28 ;
+INFO  23:53:48,387 - #21 {
+INFO  23:53:48,387 - #6 void
+INFO  23:53:48,387 - #9 main
+INFO  23:53:48,387 - #30 (
+INFO  23:53:48,388 - #31 )
+INFO  23:53:48,388 - #9 int
+INFO  23:53:48,388 - #9 a
+INFO  23:53:48,389 - #29 ,
+INFO  23:53:48,389 - #9 b
+INFO  23:53:48,389 - #28 ;
+INFO  23:53:48,389 - #21 {
+INFO  23:53:48,389 - #9 x
+INFO  23:53:48,390 - #25 =
+INFO  23:53:48,390 - #10 3
+INFO  23:53:48,391 - #28 ;
+INFO  23:53:48,393 - #3 print
+INFO  23:53:48,393 - #30 (
+INFO  23:53:48,393 - #10 2
+INFO  23:53:48,393 - #31 )
+INFO  23:53:48,393 - #28 ;
+INFO  23:53:48,393 - #4 read
+INFO  23:53:48,393 - #30 (
+INFO  23:53:48,393 - #9 x
+INFO  23:53:48,393 - #31 )
+INFO  23:53:48,393 - #28 ;
+INFO  23:53:48,393 - #3 print
+INFO  23:53:48,394 - #30 (
+INFO  23:53:48,394 - #9 x
+INFO  23:53:48,394 - #31 )
+INFO  23:53:48,394 - #28 ;
+INFO  23:53:48,394 - #22 }
+INFO  23:53:48,394 - #22 }
+INFO  23:53:48,406 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  Declarations(
+    Declarations(
+      NoDecls(
+      ) [NoDecls]
+      ProgVar(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDecl_0(
+            Variable(
+             x
+            ) [Variable]
+          ) [VarDecl_0]
+        ) [VarDecl]
+      ) [ProgVar]
+    ) [Declarations]
+    ProgVar(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarDecl_0(
+          Variable(
+           y
+          ) [Variable]
+        ) [VarDecl_0]
+      ) [VarDecl]
+    ) [ProgVar]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodVoidType(
+       main
+      ) [MethodVoidType]
+      NoFormalParam(
+      ) [NoFormalParam]
+      MethodVarDeclList(
+        NoMethodVarDecl(
+        ) [NoMethodVarDecl]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDecl_1(
+            VarDecl_0(
+              Variable(
+               a
+              ) [Variable]
+            ) [VarDecl_0]
+            Variable(
+             b
+            ) [Variable]
+          ) [VarDecl_1]
+        ) [VarDecl]
+      ) [MethodVarDeclList]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              NoStmt(
+              ) [NoStmt]
+              MatchedStmt(
+                StatementDesignator(
+                  Assignment(
+                    Designator_1(
+                     x
+                    ) [Designator_1]
+                    PosExpr(
+                      Term(
+                        FactorNumConst(
+                         3
+                        ) [FactorNumConst]
+                        NoMoreFactor(
+                        ) [NoMoreFactor]
+                      ) [Term]
+                      NoMoreTerm(
+                      ) [NoMoreTerm]
+                    ) [PosExpr]
+                  ) [Assignment]
+                ) [StatementDesignator]
+              ) [MatchedStmt]
+            ) [Statements]
+            MatchedStmt(
+              StmtPrint(
+                PosExpr(
+                  Term(
+                    FactorNumConst(
+                     2
+                    ) [FactorNumConst]
+                    NoMoreFactor(
+                    ) [NoMoreFactor]
+                  ) [Term]
+                  NoMoreTerm(
+                  ) [NoMoreTerm]
+                ) [PosExpr]
+              ) [StmtPrint]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            StmtRead(
+              Designator_1(
+               x
+              ) [Designator_1]
+            ) [StmtRead]
+          ) [MatchedStmt]
+        ) [Statements]
+        MatchedStmt(
+          StmtPrint(
+            PosExpr(
+              Term(
+                FactorDesignator(
+                  Designator_1(
+                   x
+                  ) [Designator_1]
+                ) [FactorDesignator]
+                NoMoreFactor(
+                ) [NoMoreFactor]
+              ) [Term]
+              NoMoreTerm(
+              ) [NoMoreTerm]
+            ) [PosExpr]
+          ) [StmtPrint]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  23:53:48,406 - ===================================
+INFO  23:53:48,410 - Deklarisana promenljiva x (tip: int) na liniji 3
+INFO  23:53:48,410 - Deklarisana promenljiva y (tip: int) na liniji 3
+INFO  23:53:48,410 - Obradjuje se funkcija main (povratni tip: void) na liniji 6
+INFO  23:53:48,410 - Deklarisana promenljiva a (tip: int) na liniji 6
+INFO  23:53:48,410 - Deklarisana promenljiva b (tip: int) na liniji 6
+INFO  23:53:48,411 - ===================================
+INFO  23:53:48,414 - Parsiranje uspesno zavrseno!

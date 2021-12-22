@@ -1,0 +1,55 @@
+INFO  19:57:18,068 - Compiling source file: C:\Users\Ogi\Desktop\workspace\MJCompiler\test\program.mj
+INFO  19:57:18,094 - #2 program
+INFO  19:57:18,094 - #9 MJProgram
+INFO  19:57:18,094 - #21 {
+INFO  19:57:18,096 - #9 int
+INFO  19:57:18,096 - #9 main
+INFO  19:57:18,097 - #30 (
+INFO  19:57:18,097 - #31 )
+INFO  19:57:18,097 - #21 {
+INFO  19:57:18,097 - #3 print
+INFO  19:57:18,098 - #30 (
+INFO  19:57:18,098 - #10 1
+INFO  19:57:18,098 - #31 )
+INFO  19:57:18,098 - #28 ;
+INFO  19:57:18,098 - #22 }
+INFO  19:57:18,099 - #22 }
+INFO  19:57:18,100 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  NoVarDecl(
+  ) [NoVarDecl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      Type(
+       int
+      ) [Type]
+     main
+      NoFormalParam(
+      ) [NoFormalParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        MatchedStmt(
+          PrintStmt(
+            TermExpr(
+              FactorTerm(
+                NumConst(
+                 1
+                ) [NumConst]
+              ) [FactorTerm]
+            ) [TermExpr]
+          ) [PrintStmt]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  19:57:18,101 - ===================================
+INFO  19:57:18,102 -  Print count calls = 0
+INFO  19:57:18,102 -  Deklarisanih promenljivih ima = 0

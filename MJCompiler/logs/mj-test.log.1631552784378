@@ -1,0 +1,63 @@
+INFO  19:05:45,959 - Compiling source file: C:\Users\Ogi\Desktop\workspace\MJCompiler\test\program.mj
+INFO  19:05:45,995 - #2 program
+INFO  19:05:45,996 - #9 test301
+INFO  19:05:45,996 - #21 {
+INFO  19:05:45,997 - #6 void
+INFO  19:05:45,997 - #9 main
+INFO  19:05:45,997 - #30 (
+INFO  19:05:45,997 - #31 )
+INFO  19:05:45,998 - #9 int
+INFO  19:05:45,998 - #9 x
+INFO  19:05:45,999 - #29 ,
+INFO  19:05:45,999 - #9 y
+INFO  19:05:45,999 - #28 ;
+INFO  19:05:45,999 - #21 {
+INFO  19:05:46,000 - #22 }
+INFO  19:05:46,001 - #22 }
+INFO  19:05:46,013 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoDecls(
+  ) [NoDecls]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodVoidType(
+       main
+      ) [MethodVoidType]
+      NoFormalParam(
+      ) [NoFormalParam]
+      MethodVarDeclList(
+        NoMethodVarDecl(
+        ) [NoMethodVarDecl]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDecl_1(
+            VarDecl_0(
+              Variable(
+               x
+              ) [Variable]
+            ) [VarDecl_0]
+            Variable(
+             y
+            ) [Variable]
+          ) [VarDecl_1]
+        ) [VarDecl]
+      ) [MethodVarDeclList]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  19:05:46,013 - ===================================
+INFO  19:05:46,016 - Obradjuje se funkcija main (povratni tip: void) na liniji 5
+INFO  19:05:46,017 - Deklarisana promenljiva x (tip: int) na liniji 6
+INFO  19:05:46,017 - Deklarisana promenljiva y (tip: int) na liniji 6
+INFO  19:05:46,017 - ===================================
+INFO  19:05:46,020 - Method formal params :0 na liniji 5
+INFO  19:05:46,020 - Method local params :2 na liniji 5
+INFO  19:05:46,021 - Parsiranje uspesno zavrseno!

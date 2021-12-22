@@ -1,0 +1,119 @@
+INFO  19:06:24,382 - Compiling source file: C:\Users\Ogi\Desktop\workspace\MJCompiler\test\program.mj
+INFO  19:06:24,416 - #2 program
+INFO  19:06:24,416 - #9 test301
+INFO  19:06:24,417 - #21 {
+INFO  19:06:24,417 - #6 void
+INFO  19:06:24,418 - #9 main
+INFO  19:06:24,418 - #30 (
+INFO  19:06:24,418 - #31 )
+INFO  19:06:24,418 - #9 int
+INFO  19:06:24,419 - #9 x
+INFO  19:06:24,419 - #29 ,
+INFO  19:06:24,420 - #9 y
+INFO  19:06:24,420 - #28 ;
+INFO  19:06:24,420 - #21 {
+INFO  19:06:24,421 - #22 }
+INFO  19:06:24,421 - #6 void
+INFO  19:06:24,422 - #9 f
+INFO  19:06:24,422 - #30 (
+INFO  19:06:24,422 - #9 int
+INFO  19:06:24,422 - #9 c
+INFO  19:06:24,422 - #31 )
+INFO  19:06:24,423 - #9 char
+INFO  19:06:24,423 - #9 t
+INFO  19:06:24,424 - #29 ,
+INFO  19:06:24,424 - #9 p
+INFO  19:06:24,424 - #28 ;
+INFO  19:06:24,424 - #21 {
+INFO  19:06:24,424 - #22 }
+INFO  19:06:24,424 - #22 }
+INFO  19:06:24,436 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoDecls(
+  ) [NoDecls]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDecl(
+        MethodVoidType(
+         main
+        ) [MethodVoidType]
+        NoFormalParam(
+        ) [NoFormalParam]
+        MethodVarDeclList(
+          NoMethodVarDecl(
+          ) [NoMethodVarDecl]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarDecl_1(
+              VarDecl_0(
+                Variable(
+                 x
+                ) [Variable]
+              ) [VarDecl_0]
+              Variable(
+               y
+              ) [Variable]
+            ) [VarDecl_1]
+          ) [VarDecl]
+        ) [MethodVarDeclList]
+        NoStmt(
+        ) [NoStmt]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodVoidType(
+       f
+      ) [MethodVoidType]
+      FormalParams(
+        SingleFormalParamDecl(
+          FormalParDecl(
+            Type(
+             int
+            ) [Type]
+           c
+          ) [FormalParDecl]
+        ) [SingleFormalParamDecl]
+      ) [FormalParams]
+      MethodVarDeclList(
+        NoMethodVarDecl(
+        ) [NoMethodVarDecl]
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+          VarDecl_1(
+            VarDecl_0(
+              Variable(
+               t
+              ) [Variable]
+            ) [VarDecl_0]
+            Variable(
+             p
+            ) [Variable]
+          ) [VarDecl_1]
+        ) [VarDecl]
+      ) [MethodVarDeclList]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  19:06:24,436 - ===================================
+INFO  19:06:24,439 - Obradjuje se funkcija main (povratni tip: void) na liniji 5
+INFO  19:06:24,441 - Deklarisana promenljiva x (tip: int) na liniji 6
+INFO  19:06:24,441 - Deklarisana promenljiva y (tip: int) na liniji 6
+INFO  19:06:24,441 - Obradjuje se funkcija f (povratni tip: void) na liniji 11
+INFO  19:06:24,441 - Deklarisana promenljiva t (tip: char) na liniji 12
+INFO  19:06:24,441 - Deklarisana promenljiva p (tip: char) na liniji 12
+INFO  19:06:24,441 - ===================================
+INFO  19:06:24,444 - Method formal params :0 na liniji 5
+INFO  19:06:24,444 - Method local params :2 na liniji 5
+INFO  19:06:24,445 - Method formal params :1 na liniji 11
+INFO  19:06:24,445 - Method local params :3 na liniji 11
+INFO  19:06:24,445 - Parsiranje uspesno zavrseno!

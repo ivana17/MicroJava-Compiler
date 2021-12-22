@@ -1,0 +1,220 @@
+INFO  01:23:07,139 - Compiling source file: C:\Users\Ogi\Desktop\workspace\MJCompiler\test\program.mj
+INFO  01:23:07,178 - #2 program
+INFO  01:23:07,178 - #9 MJProgram
+INFO  01:23:07,178 - #9 int
+INFO  01:23:07,179 - #9 x
+INFO  01:23:07,179 - #28 ;
+INFO  01:23:07,180 - #9 int
+INFO  01:23:07,180 - #9 y
+INFO  01:23:07,180 - #23 [
+INFO  01:23:07,180 - #24 ]
+INFO  01:23:07,180 - #28 ;
+INFO  01:23:07,180 - #21 {
+INFO  01:23:07,181 - #6 void
+INFO  01:23:07,181 - #9 main
+INFO  01:23:07,181 - #30 (
+INFO  01:23:07,181 - #31 )
+INFO  01:23:07,182 - #9 int
+INFO  01:23:07,182 - #9 a
+INFO  01:23:07,182 - #29 ,
+INFO  01:23:07,182 - #9 b
+INFO  01:23:07,182 - #28 ;
+INFO  01:23:07,182 - #21 {
+INFO  01:23:07,183 - #9 x
+INFO  01:23:07,184 - #25 =
+INFO  01:23:07,184 - #10 3
+INFO  01:23:07,184 - #28 ;
+INFO  01:23:07,186 - #9 y
+INFO  01:23:07,187 - #25 =
+INFO  01:23:07,187 - #7 new
+INFO  01:23:07,187 - #9 int
+INFO  01:23:07,187 - #23 [
+INFO  01:23:07,187 - #10 5
+INFO  01:23:07,187 - #24 ]
+INFO  01:23:07,187 - #28 ;
+INFO  01:23:07,187 - #9 x
+INFO  01:23:07,187 - #26 ++
+INFO  01:23:07,187 - #28 ;
+INFO  01:23:07,188 - #9 x
+INFO  01:23:07,188 - #27 --
+INFO  01:23:07,188 - #28 ;
+INFO  01:23:07,188 - #3 print
+INFO  01:23:07,188 - #30 (
+INFO  01:23:07,188 - #9 x
+INFO  01:23:07,188 - #31 )
+INFO  01:23:07,188 - #28 ;
+INFO  01:23:07,188 - #22 }
+INFO  01:23:07,189 - #22 }
+INFO  01:23:07,205 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  Declarations(
+    Declarations(
+      NoDecls(
+      ) [NoDecls]
+      ProgVar(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDecl_0(
+            Variable(
+             x
+            ) [Variable]
+          ) [VarDecl_0]
+        ) [VarDecl]
+      ) [ProgVar]
+    ) [Declarations]
+    ProgVar(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarDecl_0(
+          VarArray(
+           y
+          ) [VarArray]
+        ) [VarDecl_0]
+      ) [VarDecl]
+    ) [ProgVar]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodVoidType(
+       main
+      ) [MethodVoidType]
+      NoFormalParam(
+      ) [NoFormalParam]
+      MethodVarDeclList(
+        NoMethodVarDecl(
+        ) [NoMethodVarDecl]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDecl_1(
+            VarDecl_0(
+              Variable(
+               a
+              ) [Variable]
+            ) [VarDecl_0]
+            Variable(
+             b
+            ) [Variable]
+          ) [VarDecl_1]
+        ) [VarDecl]
+      ) [MethodVarDeclList]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                NoStmt(
+                ) [NoStmt]
+                MatchedStmt(
+                  StatementDesignator(
+                    Assignment(
+                      Designator_1(
+                       x
+                      ) [Designator_1]
+                      PosExpr(
+                        Term(
+                          FactorNumConst(
+                           3
+                          ) [FactorNumConst]
+                          NoMoreFactor(
+                          ) [NoMoreFactor]
+                        ) [Term]
+                        NoMoreTerm(
+                        ) [NoMoreTerm]
+                      ) [PosExpr]
+                    ) [Assignment]
+                  ) [StatementDesignator]
+                ) [MatchedStmt]
+              ) [Statements]
+              MatchedStmt(
+                StatementDesignator(
+                  Assignment(
+                    Designator_1(
+                     y
+                    ) [Designator_1]
+                    PosExpr(
+                      Term(
+                        FactorNewExpr(
+                          Type(
+                           int
+                          ) [Type]
+                          PosExpr(
+                            Term(
+                              FactorNumConst(
+                               5
+                              ) [FactorNumConst]
+                              NoMoreFactor(
+                              ) [NoMoreFactor]
+                            ) [Term]
+                            NoMoreTerm(
+                            ) [NoMoreTerm]
+                          ) [PosExpr]
+                        ) [FactorNewExpr]
+                        NoMoreFactor(
+                        ) [NoMoreFactor]
+                      ) [Term]
+                      NoMoreTerm(
+                      ) [NoMoreTerm]
+                    ) [PosExpr]
+                  ) [Assignment]
+                ) [StatementDesignator]
+              ) [MatchedStmt]
+            ) [Statements]
+            MatchedStmt(
+              StatementDesignator(
+                Increment(
+                  Designator_1(
+                   x
+                  ) [Designator_1]
+                ) [Increment]
+              ) [StatementDesignator]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            StatementDesignator(
+              Decrement(
+                Designator_1(
+                 x
+                ) [Designator_1]
+              ) [Decrement]
+            ) [StatementDesignator]
+          ) [MatchedStmt]
+        ) [Statements]
+        MatchedStmt(
+          StmtPrint(
+            PosExpr(
+              Term(
+                FactorDesignator(
+                  Designator_1(
+                   x
+                  ) [Designator_1]
+                ) [FactorDesignator]
+                NoMoreFactor(
+                ) [NoMoreFactor]
+              ) [Term]
+              NoMoreTerm(
+              ) [NoMoreTerm]
+            ) [PosExpr]
+          ) [StmtPrint]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  01:23:07,206 - ===================================
+INFO  01:23:07,209 - Deklarisana promenljiva x (tip: int) na liniji 3
+INFO  01:23:07,209 - Deklarisan niz y (tip: int) na liniji 3
+INFO  01:23:07,209 - Obradjuje se funkcija main (povratni tip: void) na liniji 6
+INFO  01:23:07,209 - Deklarisana promenljiva a (tip: int) na liniji 6
+INFO  01:23:07,209 - Deklarisana promenljiva b (tip: int) na liniji 6
+INFO  01:23:07,210 - ===================================
+INFO  01:23:07,213 - Parsiranje uspesno zavrseno!

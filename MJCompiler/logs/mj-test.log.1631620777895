@@ -1,0 +1,167 @@
+INFO  13:59:17,204 - Compiling source file: C:\Users\Ogi\Desktop\workspace\MJCompiler\test\program.mj
+INFO  13:59:17,239 - #2 program
+INFO  13:59:17,239 - #9 MJProgram
+INFO  13:59:17,239 - #9 int
+INFO  13:59:17,240 - #9 x
+INFO  13:59:17,240 - #28 ;
+INFO  13:59:17,240 - #9 int
+INFO  13:59:17,241 - #9 y
+INFO  13:59:17,241 - #23 [
+INFO  13:59:17,241 - #24 ]
+INFO  13:59:17,241 - #28 ;
+INFO  13:59:17,241 - #21 {
+INFO  13:59:17,241 - #6 void
+INFO  13:59:17,242 - #9 main
+INFO  13:59:17,242 - #30 (
+INFO  13:59:17,242 - #31 )
+INFO  13:59:17,242 - #9 int
+INFO  13:59:17,243 - #9 a
+INFO  13:59:17,243 - #29 ,
+INFO  13:59:17,243 - #9 b
+INFO  13:59:17,243 - #28 ;
+INFO  13:59:17,243 - #21 {
+INFO  13:59:17,243 - #9 y
+INFO  13:59:17,245 - #23 [
+INFO  13:59:17,245 - #10 1
+INFO  13:59:17,245 - #24 ]
+INFO  13:59:17,246 - #26 ++
+INFO  13:59:17,247 - #28 ;
+INFO  13:59:17,247 - #3 print
+INFO  13:59:17,247 - #30 (
+INFO  13:59:17,247 - #9 y
+INFO  13:59:17,247 - #23 [
+INFO  13:59:17,247 - #10 1
+INFO  13:59:17,247 - #24 ]
+INFO  13:59:17,247 - #31 )
+INFO  13:59:17,247 - #28 ;
+INFO  13:59:17,247 - #22 }
+INFO  13:59:17,248 - #22 }
+INFO  13:59:17,261 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  Declarations(
+    Declarations(
+      NoDecls(
+      ) [NoDecls]
+      ProgVar(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDecl_0(
+            Variable(
+             x
+            ) [Variable]
+          ) [VarDecl_0]
+        ) [VarDecl]
+      ) [ProgVar]
+    ) [Declarations]
+    ProgVar(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarDecl_0(
+          VarArray(
+           y
+          ) [VarArray]
+        ) [VarDecl_0]
+      ) [VarDecl]
+    ) [ProgVar]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodVoidType(
+       main
+      ) [MethodVoidType]
+      NoFormalParam(
+      ) [NoFormalParam]
+      MethodVarDeclList(
+        NoMethodVarDecl(
+        ) [NoMethodVarDecl]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDecl_1(
+            VarDecl_0(
+              Variable(
+               a
+              ) [Variable]
+            ) [VarDecl_0]
+            Variable(
+             b
+            ) [Variable]
+          ) [VarDecl_1]
+        ) [VarDecl]
+      ) [MethodVarDeclList]
+      Statements(
+        Statements(
+          NoStmt(
+          ) [NoStmt]
+          MatchedStmt(
+            StatementDesignator(
+              Increment(
+                Designator_0(
+                 y
+                  PosExpr(
+                    Term(
+                      FactorNumConst(
+                       1
+                      ) [FactorNumConst]
+                      NoMoreFactor(
+                      ) [NoMoreFactor]
+                    ) [Term]
+                    NoMoreTerm(
+                    ) [NoMoreTerm]
+                  ) [PosExpr]
+                ) [Designator_0]
+              ) [Increment]
+            ) [StatementDesignator]
+          ) [MatchedStmt]
+        ) [Statements]
+        MatchedStmt(
+          StmtPrint(
+            PosExpr(
+              Term(
+                FactorDesignator(
+                  Designator_0(
+                   y
+                    PosExpr(
+                      Term(
+                        FactorNumConst(
+                         1
+                        ) [FactorNumConst]
+                        NoMoreFactor(
+                        ) [NoMoreFactor]
+                      ) [Term]
+                      NoMoreTerm(
+                      ) [NoMoreTerm]
+                    ) [PosExpr]
+                  ) [Designator_0]
+                ) [FactorDesignator]
+                NoMoreFactor(
+                ) [NoMoreFactor]
+              ) [Term]
+              NoMoreTerm(
+              ) [NoMoreTerm]
+            ) [PosExpr]
+          ) [StmtPrint]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  13:59:17,262 - ===================================
+INFO  13:59:17,265 - Deklarisana promenljiva x (tip: int) na liniji 3
+INFO  13:59:17,265 - Deklarisan niz y (tip: int) na liniji 4
+INFO  13:59:17,265 - Obradjuje se funkcija main (povratni tip: void) na liniji 7
+INFO  13:59:17,266 - Deklarisana promenljiva a (tip: int) na liniji 7
+INFO  13:59:17,266 - Deklarisana promenljiva b (tip: int) na liniji 7
+ERROR 13:59:17,266 - Semanticka greska - niz y nije alociran na liniji 11
+ERROR 13:59:17,266 - Semanticka greska - niz y nije alociran na liniji 14
+INFO  13:59:17,266 - ===================================
+ERROR 13:59:17,267 - Parsiranje NIJE uspesno zavrseno!

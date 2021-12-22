@@ -1,0 +1,217 @@
+INFO  19:32:18,204 - Compiling source file: C:\Users\Ogi\Desktop\workspace\MJCompiler\test\program.mj
+INFO  19:32:18,247 - #2 program
+INFO  19:32:18,247 - #9 test301
+INFO  19:32:18,247 - #9 int
+INFO  19:32:18,248 - #9 x
+INFO  19:32:18,249 - #28 ;
+INFO  19:32:18,249 - #9 int
+INFO  19:32:18,249 - #9 y
+INFO  19:32:18,250 - #28 ;
+INFO  19:32:18,250 - #21 {
+INFO  19:32:18,250 - #9 int
+INFO  19:32:18,250 - #9 k
+INFO  19:32:18,250 - #30 (
+INFO  19:32:18,250 - #31 )
+INFO  19:32:18,251 - #9 int
+INFO  19:32:18,252 - #9 c
+INFO  19:32:18,252 - #28 ;
+INFO  19:32:18,252 - #21 {
+INFO  19:32:18,252 - #9 c
+INFO  19:32:18,253 - #25 =
+INFO  19:32:18,253 - #10 2
+INFO  19:32:18,253 - #28 ;
+INFO  19:32:18,254 - #37 return
+INFO  19:32:18,255 - #9 c
+INFO  19:32:18,255 - #14 +
+INFO  19:32:18,255 - #10 2
+INFO  19:32:18,256 - #28 ;
+INFO  19:32:18,257 - #22 }
+INFO  19:32:18,257 - #6 void
+INFO  19:32:18,258 - #9 main
+INFO  19:32:18,258 - #30 (
+INFO  19:32:18,258 - #31 )
+INFO  19:32:18,258 - #21 {
+INFO  19:32:18,258 - #3 print
+INFO  19:32:18,258 - #30 (
+INFO  19:32:18,258 - #10 1
+INFO  19:32:18,258 - #31 )
+INFO  19:32:18,258 - #28 ;
+INFO  19:32:18,258 - #3 print
+INFO  19:32:18,258 - #30 (
+INFO  19:32:18,258 - #10 2
+INFO  19:32:18,258 - #31 )
+INFO  19:32:18,258 - #28 ;
+INFO  19:32:18,258 - #22 }
+INFO  19:32:18,258 - #22 }
+INFO  19:32:18,271 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  Declarations(
+    Declarations(
+      NoDecls(
+      ) [NoDecls]
+      ProgVar(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDecl_0(
+            Variable(
+             x
+            ) [Variable]
+          ) [VarDecl_0]
+        ) [VarDecl]
+      ) [ProgVar]
+    ) [Declarations]
+    ProgVar(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarDecl_0(
+          Variable(
+           y
+          ) [Variable]
+        ) [VarDecl_0]
+      ) [VarDecl]
+    ) [ProgVar]
+  ) [Declarations]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDecl(
+        MethodReturnType(
+          Type(
+           int
+          ) [Type]
+         k
+        ) [MethodReturnType]
+        NoFormalParam(
+        ) [NoFormalParam]
+        MethodVarDeclList(
+          NoMethodVarDecl(
+          ) [NoMethodVarDecl]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarDecl_0(
+              Variable(
+               c
+              ) [Variable]
+            ) [VarDecl_0]
+          ) [VarDecl]
+        ) [MethodVarDeclList]
+        Statements(
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            MatchedStmt(
+              StatementDesignator(
+                Assignment(
+                  Designator_1(
+                   c
+                  ) [Designator_1]
+                  PosExpr(
+                    Term(
+                      FactorNumConst(
+                       2
+                      ) [FactorNumConst]
+                      NoMoreFactor(
+                      ) [NoMoreFactor]
+                    ) [Term]
+                    NoMoreTerm(
+                    ) [NoMoreTerm]
+                  ) [PosExpr]
+                ) [Assignment]
+              ) [StatementDesignator]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            StmtReturnExpr(
+              PosExpr(
+                Term(
+                  FactorDesignator(
+                    Designator_1(
+                     c
+                    ) [Designator_1]
+                  ) [FactorDesignator]
+                  NoMoreFactor(
+                  ) [NoMoreFactor]
+                ) [Term]
+                MoreTerm(
+                  NoMoreTerm(
+                  ) [NoMoreTerm]
+                  Addop(
+                  ) [Addop]
+                  Term(
+                    FactorNumConst(
+                     2
+                    ) [FactorNumConst]
+                    NoMoreFactor(
+                    ) [NoMoreFactor]
+                  ) [Term]
+                ) [MoreTerm]
+              ) [PosExpr]
+            ) [StmtReturnExpr]
+          ) [MatchedStmt]
+        ) [Statements]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodVoidType(
+       main
+      ) [MethodVoidType]
+      NoFormalParam(
+      ) [NoFormalParam]
+      NoMethodVarDecl(
+      ) [NoMethodVarDecl]
+      Statements(
+        Statements(
+          NoStmt(
+          ) [NoStmt]
+          MatchedStmt(
+            StmtPrint(
+              PosExpr(
+                Term(
+                  FactorNumConst(
+                   1
+                  ) [FactorNumConst]
+                  NoMoreFactor(
+                  ) [NoMoreFactor]
+                ) [Term]
+                NoMoreTerm(
+                ) [NoMoreTerm]
+              ) [PosExpr]
+            ) [StmtPrint]
+          ) [MatchedStmt]
+        ) [Statements]
+        MatchedStmt(
+          StmtPrint(
+            PosExpr(
+              Term(
+                FactorNumConst(
+                 2
+                ) [FactorNumConst]
+                NoMoreFactor(
+                ) [NoMoreFactor]
+              ) [Term]
+              NoMoreTerm(
+              ) [NoMoreTerm]
+            ) [PosExpr]
+          ) [StmtPrint]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  19:32:18,272 - ===================================
+INFO  19:32:18,278 - Deklarisana promenljiva x (tip: int) na liniji 4
+INFO  19:32:18,278 - Deklarisana promenljiva y (tip: int) na liniji 4
+INFO  19:32:18,278 - Obradjuje se funkcija k (povratni tip: int) na liniji 6
+INFO  19:32:18,278 - Deklarisana promenljiva c (tip: int) na liniji 6
+INFO  19:32:18,279 - Obradjuje se funkcija main (povratni tip: void) na liniji 11
+INFO  19:32:18,279 - ===================================
+INFO  19:32:18,282 - Parsiranje uspesno zavrseno!

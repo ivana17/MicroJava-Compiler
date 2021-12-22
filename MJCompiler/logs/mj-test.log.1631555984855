@@ -1,0 +1,81 @@
+INFO  19:58:05,113 - Compiling source file: C:\Users\Ogi\Desktop\workspace\MJCompiler\test\program.mj
+INFO  19:58:05,153 - #2 program
+INFO  19:58:05,154 - #9 test301
+INFO  19:58:05,154 - #21 {
+INFO  19:58:05,155 - #6 void
+INFO  19:58:05,155 - #9 main
+INFO  19:58:05,155 - #30 (
+INFO  19:58:05,155 - #31 )
+INFO  19:58:05,156 - #21 {
+INFO  19:58:05,157 - #3 print
+INFO  19:58:05,157 - #30 (
+INFO  19:58:05,157 - #11 a
+INFO  19:58:05,157 - #31 )
+INFO  19:58:05,159 - #28 ;
+INFO  19:58:05,159 - #3 print
+INFO  19:58:05,159 - #30 (
+INFO  19:58:05,160 - #10 1
+INFO  19:58:05,160 - #31 )
+INFO  19:58:05,160 - #28 ;
+INFO  19:58:05,160 - #22 }
+INFO  19:58:05,160 - #22 }
+INFO  19:58:05,175 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoDecls(
+  ) [NoDecls]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodVoidType(
+       main
+      ) [MethodVoidType]
+      NoFormalParam(
+      ) [NoFormalParam]
+      NoMethodVarDecl(
+      ) [NoMethodVarDecl]
+      Statements(
+        Statements(
+          NoStmt(
+          ) [NoStmt]
+          MatchedStmt(
+            StmtPrint(
+              PosExpr(
+                Term(
+                  FactorCharConst(
+                   a
+                  ) [FactorCharConst]
+                  NoMoreFactor(
+                  ) [NoMoreFactor]
+                ) [Term]
+                NoMoreTerm(
+                ) [NoMoreTerm]
+              ) [PosExpr]
+            ) [StmtPrint]
+          ) [MatchedStmt]
+        ) [Statements]
+        MatchedStmt(
+          StmtPrint(
+            PosExpr(
+              Term(
+                FactorNumConst(
+                 1
+                ) [FactorNumConst]
+                NoMoreFactor(
+                ) [NoMoreFactor]
+              ) [Term]
+              NoMoreTerm(
+              ) [NoMoreTerm]
+            ) [PosExpr]
+          ) [StmtPrint]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  19:58:05,176 - ===================================
+INFO  19:58:05,179 - Obradjuje se funkcija main (povratni tip: void) na liniji 7
+INFO  19:58:05,179 - ===================================
+INFO  19:58:05,183 - Parsiranje uspesno zavrseno!

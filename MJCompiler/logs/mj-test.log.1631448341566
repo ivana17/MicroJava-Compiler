@@ -1,0 +1,145 @@
+INFO  14:05:14,608 - Compiling source file: C:\Users\Ogi\Desktop\workspace\MJCompiler\test\program.mj
+INFO  14:05:14,646 - #2 program
+INFO  14:05:14,646 - #9 MJProgram
+INFO  14:05:14,646 - #9 int
+INFO  14:05:14,647 - #9 x
+INFO  14:05:14,648 - #29 ,
+INFO  14:05:14,648 - #9 y
+INFO  14:05:14,648 - #23 [
+INFO  14:05:14,648 - #24 ]
+INFO  14:05:14,648 - #29 ,
+INFO  14:05:14,648 - #9 z
+INFO  14:05:14,648 - #28 ;
+INFO  14:05:14,649 - #5 const
+INFO  14:05:14,649 - #9 char
+INFO  14:05:14,649 - #9 i
+INFO  14:05:14,649 - #25 =
+INFO  14:05:14,649 - #11 w
+INFO  14:05:14,650 - #28 ;
+INFO  14:05:14,650 - #21 {
+INFO  14:05:14,651 - #6 void
+INFO  14:05:14,651 - #9 main
+INFO  14:05:14,651 - #30 (
+INFO  14:05:14,652 - #31 )
+INFO  14:05:14,652 - #21 {
+INFO  14:05:14,653 - #22 }
+INFO  14:05:14,653 - #6 void
+INFO  14:05:14,654 - #9 f
+INFO  14:05:14,654 - #30 (
+INFO  14:05:14,654 - #9 int
+INFO  14:05:14,654 - #9 x
+INFO  14:05:14,654 - #31 )
+INFO  14:05:14,655 - #9 char
+INFO  14:05:14,655 - #9 y
+INFO  14:05:14,655 - #28 ;
+INFO  14:05:14,655 - #21 {
+INFO  14:05:14,655 - #22 }
+INFO  14:05:14,655 - #22 }
+INFO  14:05:14,667 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  Declarations(
+    Declarations(
+      NoDecls(
+      ) [NoDecls]
+      ProgVar(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDecl_1(
+            VarDecl_1(
+              VarDecl_0(
+                Variable(
+                 x
+                ) [Variable]
+              ) [VarDecl_0]
+              VarArray(
+               y
+              ) [VarArray]
+            ) [VarDecl_1]
+            Variable(
+             z
+            ) [Variable]
+          ) [VarDecl_1]
+        ) [VarDecl]
+      ) [ProgVar]
+    ) [Declarations]
+    ProgConst(
+      ConstDecl(
+        Type(
+         char
+        ) [Type]
+        ConstDecl_0(
+          SingleConst(
+           i
+            CharConst(
+             w
+            ) [CharConst]
+          ) [SingleConst]
+        ) [ConstDecl_0]
+      ) [ConstDecl]
+    ) [ProgConst]
+  ) [Declarations]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDecl(
+        MethodVoidType(
+         main
+        ) [MethodVoidType]
+        NoFormalParam(
+        ) [NoFormalParam]
+        NoMethodVarDecl(
+        ) [NoMethodVarDecl]
+        NoStmt(
+        ) [NoStmt]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodVoidType(
+       f
+      ) [MethodVoidType]
+      FormalParams(
+        SingleFormalParamDecl(
+          FormalParDecl(
+            Type(
+             int
+            ) [Type]
+           x
+          ) [FormalParDecl]
+        ) [SingleFormalParamDecl]
+      ) [FormalParams]
+      MethodVarDeclList(
+        NoMethodVarDecl(
+        ) [NoMethodVarDecl]
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+          VarDecl_0(
+            Variable(
+             y
+            ) [Variable]
+          ) [VarDecl_0]
+        ) [VarDecl]
+      ) [MethodVarDeclList]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  14:05:14,667 - ===================================
+INFO  14:05:14,671 - Deklarisana promenljiva x (tip: int) na liniji 2
+INFO  14:05:14,671 - Deklarisan niz y (tip: int) na liniji 2
+INFO  14:05:14,671 - Deklarisana promenljiva z (tip: int) na liniji 2
+INFO  14:05:14,671 - Deklarisana konstanta i (tip: char, vrednost: w) na liniji 3
+INFO  14:05:14,671 - Obradjuje se funkcija main (povratni tip: void) na liniji 5
+INFO  14:05:14,671 - Provera za scope sakrivanje imena : rs.etf.pp1.symboltable.concepts.Struct@300ffa5d na liniji 5
+INFO  14:05:14,671 - Obradjuje se funkcija f (povratni tip: void) na liniji 9
+INFO  14:05:14,671 - Deklarisana promenljiva y (tip: char) na liniji 10
+INFO  14:05:14,671 - Provera za scope sakrivanje imena : rs.etf.pp1.symboltable.concepts.Struct@1f17ae12 na liniji 9
+INFO  14:05:14,672 - ===================================
+INFO  14:05:14,672 - Parsiranje uspesno zavrseno!

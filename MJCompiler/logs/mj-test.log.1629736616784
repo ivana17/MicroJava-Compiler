@@ -1,0 +1,227 @@
+INFO  15:52:39,787 - Compiling source file: C:\Users\Ogi\Desktop\workspace\MJCompiler\test\program.mj
+INFO  15:52:39,817 - #2 program
+INFO  15:52:39,817 - #9 MJProgram
+INFO  15:52:39,817 - #9 int
+INFO  15:52:39,818 - #9 x
+INFO  15:52:39,819 - #9 hsh
+ERROR 15:52:39,819 - 
+Sintaksna greska na liniji 2
+INFO  15:52:39,819 - #29 ,
+INFO  15:52:39,819 - #9 y
+INFO  15:52:39,819 - #28 ;
+INFO  15:52:39,819 - #21 {
+INFO  15:52:39,819 - #9 int
+INFO  15:52:39,819 - #9 k
+ERROR 15:52:39,820 - Izvrsen oporavak do ; u liniji 8
+INFO  15:52:39,820 - #30 (
+INFO  15:52:39,821 - #31 )
+INFO  15:52:39,821 - #9 int
+INFO  15:52:39,821 - #9 c
+INFO  15:52:39,821 - #28 ;
+INFO  15:52:39,822 - #21 {
+INFO  15:52:39,822 - #9 c
+INFO  15:52:39,822 - #25 =
+INFO  15:52:39,824 - #10 2
+INFO  15:52:39,824 - #28 ;
+INFO  15:52:39,824 - #37 return
+INFO  15:52:39,825 - #9 c
+INFO  15:52:39,825 - #14 +
+INFO  15:52:39,825 - #10 2
+INFO  15:52:39,825 - #28 ;
+INFO  15:52:39,825 - #22 }
+INFO  15:52:39,826 - #9 int
+INFO  15:52:39,826 - #9 main
+INFO  15:52:39,826 - #30 (
+INFO  15:52:39,826 - #31 )
+INFO  15:52:39,826 - #21 {
+INFO  15:52:39,826 - #3 print
+INFO  15:52:39,827 - #30 (
+INFO  15:52:39,827 - #10 1
+INFO  15:52:39,827 - #31 )
+INFO  15:52:39,827 - #28 ;
+INFO  15:52:39,827 - #9 x
+INFO  15:52:39,827 - #25 =
+INFO  15:52:39,827 - #9 y
+INFO  15:52:39,827 - #14 +
+INFO  15:52:39,827 - #10 5
+INFO  15:52:39,827 - #14 +
+INFO  15:52:39,827 - #10 3
+INFO  15:52:39,827 - #14 +
+INFO  15:52:39,827 - #28 ;
+ERROR 15:52:39,827 - 
+Sintaksna greska na liniji 14
+INFO  15:52:39,827 - #3 print
+INFO  15:52:39,827 - #30 (
+INFO  15:52:39,828 - #10 2
+ERROR 15:52:39,828 - Izvrsen oporavak do ; u liniji 14
+INFO  15:52:39,828 - #31 )
+INFO  15:52:39,828 - #28 ;
+INFO  15:52:39,828 - #9 k
+INFO  15:52:39,828 - #30 (
+INFO  15:52:39,828 - #31 )
+INFO  15:52:39,829 - #28 ;
+INFO  15:52:39,829 - #37 return
+INFO  15:52:39,829 - #10 1
+INFO  15:52:39,829 - #28 ;
+INFO  15:52:39,829 - #22 }
+INFO  15:52:39,830 - #22 }
+INFO  15:52:39,831 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ErrorStmtVar(
+  ) [ErrorStmtVar]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDecl(
+        MethodTypeName(
+          Type(
+           int
+          ) [Type]
+         k
+        ) [MethodTypeName]
+        NoFormalParam(
+        ) [NoFormalParam]
+        VarDeclarations(
+          NoVarDecl(
+          ) [NoVarDecl]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarDecl_0(
+             c
+            ) [VarDecl_0]
+          ) [VarDecl]
+        ) [VarDeclarations]
+        Statements(
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            MatchedStmt(
+              DesignatorStatement(
+                Assignment(
+                  Designator_1(
+                    DesignatorName(
+                     c
+                    ) [DesignatorName]
+                  ) [Designator_1]
+                  TermExpr(
+                    FactorTerm(
+                      NumConst(
+                       2
+                      ) [NumConst]
+                    ) [FactorTerm]
+                  ) [TermExpr]
+                ) [Assignment]
+              ) [DesignatorStatement]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            ReturnExpr(
+              AddExpr(
+                FactorTerm(
+                  Var(
+                    Designator_1(
+                      DesignatorName(
+                       c
+                      ) [DesignatorName]
+                    ) [Designator_1]
+                  ) [Var]
+                ) [FactorTerm]
+                Addop(
+                ) [Addop]
+                TermExpr(
+                  FactorTerm(
+                    NumConst(
+                     2
+                    ) [NumConst]
+                  ) [FactorTerm]
+                ) [TermExpr]
+              ) [AddExpr]
+            ) [ReturnExpr]
+          ) [MatchedStmt]
+        ) [Statements]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethodTypeName]
+      NoFormalParam(
+      ) [NoFormalParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                NoStmt(
+                ) [NoStmt]
+                MatchedStmt(
+                  PrintStmt(
+                    TermExpr(
+                      FactorTerm(
+                        NumConst(
+                         1
+                        ) [NumConst]
+                      ) [FactorTerm]
+                    ) [TermExpr]
+                  ) [PrintStmt]
+                ) [MatchedStmt]
+              ) [Statements]
+              MatchedStmt(
+                ErrorStmt(
+                ) [ErrorStmt]
+              ) [MatchedStmt]
+            ) [Statements]
+            MatchedStmt(
+              PrintStmt(
+                TermExpr(
+                  FactorTerm(
+                    NumConst(
+                     2
+                    ) [NumConst]
+                  ) [FactorTerm]
+                ) [TermExpr]
+              ) [PrintStmt]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            DesignatorStatement(
+              FuncCall(
+                Designator_1(
+                  DesignatorName(
+                   k
+                  ) [DesignatorName]
+                ) [Designator_1]
+                NoActuals(
+                ) [NoActuals]
+              ) [FuncCall]
+            ) [DesignatorStatement]
+          ) [MatchedStmt]
+        ) [Statements]
+        MatchedStmt(
+          ReturnExpr(
+            TermExpr(
+              FactorTerm(
+                NumConst(
+                 1
+                ) [NumConst]
+              ) [FactorTerm]
+            ) [TermExpr]
+          ) [ReturnExpr]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:52:39,831 - ===================================
+INFO  15:52:39,833 -  Print count calls = 2
+INFO  15:52:39,833 -  Deklarisanih promenljivih ima = 1

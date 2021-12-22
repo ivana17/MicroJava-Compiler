@@ -1,0 +1,219 @@
+INFO  14:31:44,445 - Compiling source file: C:\Users\Ogi\Desktop\workspace\MJCompiler\test\program.mj
+INFO  14:31:44,479 - #2 program
+INFO  14:31:44,479 - #9 MJProgram
+INFO  14:31:44,479 - #9 int
+INFO  14:31:44,480 - #9 x
+INFO  14:31:44,480 - #28 ;
+INFO  14:31:44,480 - #9 int
+INFO  14:31:44,481 - #9 y
+INFO  14:31:44,481 - #23 [
+INFO  14:31:44,481 - #24 ]
+INFO  14:31:44,481 - #28 ;
+INFO  14:31:44,481 - #21 {
+INFO  14:31:44,481 - #6 void
+INFO  14:31:44,482 - #9 main
+INFO  14:31:44,482 - #30 (
+INFO  14:31:44,482 - #31 )
+INFO  14:31:44,482 - #9 int
+INFO  14:31:44,483 - #9 a
+INFO  14:31:44,483 - #28 ;
+INFO  14:31:44,483 - #9 char
+INFO  14:31:44,483 - #9 b
+INFO  14:31:44,483 - #23 [
+INFO  14:31:44,483 - #24 ]
+INFO  14:31:44,484 - #28 ;
+INFO  14:31:44,484 - #21 {
+INFO  14:31:44,484 - #9 y
+INFO  14:31:44,485 - #25 =
+INFO  14:31:44,485 - #7 new
+INFO  14:31:44,485 - #9 int
+INFO  14:31:44,485 - #23 [
+INFO  14:31:44,485 - #10 5
+INFO  14:31:44,485 - #24 ]
+INFO  14:31:44,487 - #28 ;
+INFO  14:31:44,487 - #9 y
+INFO  14:31:44,487 - #23 [
+INFO  14:31:44,487 - #10 0
+INFO  14:31:44,487 - #24 ]
+INFO  14:31:44,488 - #26 ++
+INFO  14:31:44,488 - #28 ;
+INFO  14:31:44,488 - #3 print
+INFO  14:31:44,488 - #30 (
+INFO  14:31:44,488 - #9 y
+INFO  14:31:44,488 - #23 [
+INFO  14:31:44,488 - #10 0
+INFO  14:31:44,488 - #24 ]
+INFO  14:31:44,488 - #31 )
+INFO  14:31:44,489 - #28 ;
+INFO  14:31:44,489 - #22 }
+INFO  14:31:44,489 - #22 }
+INFO  14:31:44,506 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  Declarations(
+    Declarations(
+      NoDecls(
+      ) [NoDecls]
+      ProgVar(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDecl_0(
+            Variable(
+             x
+            ) [Variable]
+          ) [VarDecl_0]
+        ) [VarDecl]
+      ) [ProgVar]
+    ) [Declarations]
+    ProgVar(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarDecl_0(
+          VarArray(
+           y
+          ) [VarArray]
+        ) [VarDecl_0]
+      ) [VarDecl]
+    ) [ProgVar]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodVoidType(
+       main
+      ) [MethodVoidType]
+      NoFormalParam(
+      ) [NoFormalParam]
+      MethodVarDeclList(
+        MethodVarDeclList(
+          NoMethodVarDecl(
+          ) [NoMethodVarDecl]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarDecl_0(
+              Variable(
+               a
+              ) [Variable]
+            ) [VarDecl_0]
+          ) [VarDecl]
+        ) [MethodVarDeclList]
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+          VarDecl_0(
+            VarArray(
+             b
+            ) [VarArray]
+          ) [VarDecl_0]
+        ) [VarDecl]
+      ) [MethodVarDeclList]
+      Statements(
+        Statements(
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            MatchedStmt(
+              StatementDesignator(
+                Assignment(
+                  Designator_1(
+                   y
+                  ) [Designator_1]
+                  PosExpr(
+                    Term(
+                      FactorNewExpr(
+                        Type(
+                         int
+                        ) [Type]
+                        PosExpr(
+                          Term(
+                            FactorNumConst(
+                             5
+                            ) [FactorNumConst]
+                            NoMoreFactor(
+                            ) [NoMoreFactor]
+                          ) [Term]
+                          NoMoreTerm(
+                          ) [NoMoreTerm]
+                        ) [PosExpr]
+                      ) [FactorNewExpr]
+                      NoMoreFactor(
+                      ) [NoMoreFactor]
+                    ) [Term]
+                    NoMoreTerm(
+                    ) [NoMoreTerm]
+                  ) [PosExpr]
+                ) [Assignment]
+              ) [StatementDesignator]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            StatementDesignator(
+              Increment(
+                Designator_0(
+                 y
+                  PosExpr(
+                    Term(
+                      FactorNumConst(
+                       0
+                      ) [FactorNumConst]
+                      NoMoreFactor(
+                      ) [NoMoreFactor]
+                    ) [Term]
+                    NoMoreTerm(
+                    ) [NoMoreTerm]
+                  ) [PosExpr]
+                ) [Designator_0]
+              ) [Increment]
+            ) [StatementDesignator]
+          ) [MatchedStmt]
+        ) [Statements]
+        MatchedStmt(
+          StmtPrint(
+            PosExpr(
+              Term(
+                FactorDesignator(
+                  Designator_0(
+                   y
+                    PosExpr(
+                      Term(
+                        FactorNumConst(
+                         0
+                        ) [FactorNumConst]
+                        NoMoreFactor(
+                        ) [NoMoreFactor]
+                      ) [Term]
+                      NoMoreTerm(
+                      ) [NoMoreTerm]
+                    ) [PosExpr]
+                  ) [Designator_0]
+                ) [FactorDesignator]
+                NoMoreFactor(
+                ) [NoMoreFactor]
+              ) [Term]
+              NoMoreTerm(
+              ) [NoMoreTerm]
+            ) [PosExpr]
+          ) [StmtPrint]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  14:31:44,507 - ===================================
+INFO  14:31:44,510 - Deklarisana promenljiva x (tip: int) na liniji 3
+INFO  14:31:44,510 - Deklarisan niz y (tip: int) na liniji 4
+INFO  14:31:44,511 - Obradjuje se funkcija main (povratni tip: void) na liniji 7
+INFO  14:31:44,511 - Deklarisana promenljiva a (tip: int) na liniji 7
+INFO  14:31:44,511 - Deklarisan niz b (tip: char) na liniji 7
+INFO  14:31:44,511 - Alociran niz y na liniji 9
+INFO  14:31:44,511 - ===================================
+INFO  14:31:44,515 - Parsiranje uspesno zavrseno!

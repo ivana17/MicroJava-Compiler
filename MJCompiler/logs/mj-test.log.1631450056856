@@ -1,0 +1,1634 @@
+INFO  14:33:00,856 - Compiling source file: C:\Users\Ogi\Desktop\workspace\MJCompiler\test\program.mj
+INFO  14:33:00,893 - #2 program
+INFO  14:33:00,894 - #9 test301
+INFO  14:33:00,894 - #5 const
+INFO  14:33:00,895 - #9 int
+INFO  14:33:00,895 - #9 nula
+INFO  14:33:00,895 - #25 =
+INFO  14:33:00,895 - #10 0
+INFO  14:33:00,895 - #28 ;
+INFO  14:33:00,896 - #5 const
+INFO  14:33:00,897 - #9 int
+INFO  14:33:00,897 - #9 jedan
+INFO  14:33:00,897 - #25 =
+INFO  14:33:00,897 - #10 1
+INFO  14:33:00,897 - #28 ;
+INFO  14:33:00,897 - #5 const
+INFO  14:33:00,897 - #9 int
+INFO  14:33:00,897 - #9 pet
+INFO  14:33:00,897 - #25 =
+INFO  14:33:00,897 - #10 5
+INFO  14:33:00,897 - #28 ;
+INFO  14:33:00,897 - #5 const
+INFO  14:33:00,897 - #9 char
+INFO  14:33:00,898 - #9 aa
+INFO  14:33:00,898 - #25 =
+INFO  14:33:00,899 - #11 a
+INFO  14:33:00,899 - #29 ,
+INFO  14:33:00,899 - #9 bb
+INFO  14:33:00,899 - #25 =
+INFO  14:33:00,899 - #11 b
+INFO  14:33:00,899 - #28 ;
+INFO  14:33:00,899 - #9 int
+INFO  14:33:00,899 - #9 niz
+INFO  14:33:00,899 - #23 [
+INFO  14:33:00,899 - #24 ]
+INFO  14:33:00,899 - #28 ;
+INFO  14:33:00,899 - #9 char
+INFO  14:33:00,900 - #9 nizch
+INFO  14:33:00,900 - #23 [
+INFO  14:33:00,900 - #24 ]
+INFO  14:33:00,900 - #28 ;
+INFO  14:33:00,900 - #21 {
+INFO  14:33:00,900 - #9 int
+INFO  14:33:00,901 - #9 main
+INFO  14:33:00,901 - #30 (
+INFO  14:33:00,901 - #31 )
+INFO  14:33:00,902 - #9 int
+INFO  14:33:00,902 - #9 bodovi
+INFO  14:33:00,902 - #28 ;
+INFO  14:33:00,902 - #9 bool
+INFO  14:33:00,903 - #9 bt
+INFO  14:33:00,903 - #28 ;
+INFO  14:33:00,903 - #21 {
+INFO  14:33:00,903 - #9 bodovi
+INFO  14:33:00,903 - #25 =
+INFO  14:33:00,903 - #10 0
+INFO  14:33:00,903 - #28 ;
+INFO  14:33:00,905 - #9 bodovi
+INFO  14:33:00,905 - #26 ++
+INFO  14:33:00,906 - #28 ;
+INFO  14:33:00,906 - #9 bodovi
+INFO  14:33:00,906 - #25 =
+INFO  14:33:00,906 - #9 bodovi
+INFO  14:33:00,906 - #14 +
+INFO  14:33:00,906 - #9 jedan
+INFO  14:33:00,907 - #28 ;
+INFO  14:33:00,907 - #9 bodovi
+INFO  14:33:00,908 - #25 =
+INFO  14:33:00,908 - #9 bodovi
+INFO  14:33:00,911 - #16 *
+INFO  14:33:00,911 - #9 pet
+INFO  14:33:00,911 - #28 ;
+INFO  14:33:00,912 - #9 bodovi
+INFO  14:33:00,912 - #27 --
+INFO  14:33:00,912 - #28 ;
+INFO  14:33:00,912 - #3 print
+INFO  14:33:00,912 - #30 (
+INFO  14:33:00,912 - #9 bodovi
+INFO  14:33:00,912 - #31 )
+INFO  14:33:00,912 - #28 ;
+INFO  14:33:00,912 - #9 niz
+INFO  14:33:00,912 - #25 =
+INFO  14:33:00,912 - #7 new
+INFO  14:33:00,912 - #9 int
+INFO  14:33:00,912 - #23 [
+INFO  14:33:00,913 - #10 3
+INFO  14:33:00,913 - #24 ]
+INFO  14:33:00,913 - #28 ;
+INFO  14:33:00,913 - #9 niz
+INFO  14:33:00,913 - #23 [
+INFO  14:33:00,913 - #9 nula
+INFO  14:33:00,913 - #24 ]
+INFO  14:33:00,913 - #25 =
+INFO  14:33:00,913 - #9 jedan
+INFO  14:33:00,913 - #28 ;
+INFO  14:33:00,913 - #9 niz
+INFO  14:33:00,913 - #23 [
+INFO  14:33:00,913 - #10 1
+INFO  14:33:00,913 - #24 ]
+INFO  14:33:00,914 - #25 =
+INFO  14:33:00,914 - #10 2
+INFO  14:33:00,914 - #28 ;
+INFO  14:33:00,914 - #9 niz
+INFO  14:33:00,914 - #23 [
+INFO  14:33:00,914 - #9 niz
+INFO  14:33:00,914 - #23 [
+INFO  14:33:00,914 - #9 jedan
+INFO  14:33:00,914 - #24 ]
+INFO  14:33:00,914 - #24 ]
+INFO  14:33:00,914 - #25 =
+INFO  14:33:00,914 - #9 niz
+INFO  14:33:00,914 - #23 [
+INFO  14:33:00,914 - #9 niz
+INFO  14:33:00,914 - #23 [
+INFO  14:33:00,915 - #10 0
+INFO  14:33:00,915 - #24 ]
+INFO  14:33:00,915 - #24 ]
+INFO  14:33:00,915 - #16 *
+INFO  14:33:00,915 - #10 3
+INFO  14:33:00,915 - #28 ;
+INFO  14:33:00,915 - #9 bodovi
+INFO  14:33:00,915 - #25 =
+INFO  14:33:00,915 - #9 niz
+INFO  14:33:00,915 - #23 [
+INFO  14:33:00,915 - #10 2
+INFO  14:33:00,915 - #24 ]
+INFO  14:33:00,915 - #17 /
+INFO  14:33:00,915 - #9 niz
+INFO  14:33:00,916 - #23 [
+INFO  14:33:00,916 - #10 0
+INFO  14:33:00,916 - #24 ]
+INFO  14:33:00,916 - #28 ;
+INFO  14:33:00,916 - #3 print
+INFO  14:33:00,916 - #30 (
+INFO  14:33:00,916 - #9 bodovi
+INFO  14:33:00,916 - #31 )
+INFO  14:33:00,916 - #28 ;
+INFO  14:33:00,916 - #3 print
+INFO  14:33:00,916 - #30 (
+INFO  14:33:00,916 - #9 niz
+INFO  14:33:00,916 - #23 [
+INFO  14:33:00,916 - #10 2
+INFO  14:33:00,916 - #24 ]
+INFO  14:33:00,916 - #31 )
+INFO  14:33:00,917 - #28 ;
+INFO  14:33:00,917 - #9 nizch
+INFO  14:33:00,917 - #25 =
+INFO  14:33:00,917 - #7 new
+INFO  14:33:00,917 - #9 char
+INFO  14:33:00,917 - #23 [
+INFO  14:33:00,917 - #10 3
+INFO  14:33:00,917 - #24 ]
+INFO  14:33:00,917 - #28 ;
+INFO  14:33:00,917 - #9 nizch
+INFO  14:33:00,917 - #23 [
+INFO  14:33:00,917 - #10 0
+INFO  14:33:00,917 - #24 ]
+INFO  14:33:00,917 - #25 =
+INFO  14:33:00,917 - #11 a
+INFO  14:33:00,917 - #28 ;
+INFO  14:33:00,917 - #9 nizch
+INFO  14:33:00,917 - #23 [
+INFO  14:33:00,917 - #9 jedan
+INFO  14:33:00,917 - #24 ]
+INFO  14:33:00,917 - #25 =
+INFO  14:33:00,917 - #11 b
+INFO  14:33:00,917 - #28 ;
+INFO  14:33:00,917 - #9 nizch
+INFO  14:33:00,917 - #23 [
+INFO  14:33:00,918 - #9 pet
+INFO  14:33:00,918 - #15 -
+INFO  14:33:00,918 - #10 3
+INFO  14:33:00,918 - #24 ]
+INFO  14:33:00,918 - #25 =
+INFO  14:33:00,918 - #11 c
+INFO  14:33:00,918 - #28 ;
+INFO  14:33:00,918 - #3 print
+INFO  14:33:00,918 - #30 (
+INFO  14:33:00,918 - #9 nizch
+INFO  14:33:00,918 - #23 [
+INFO  14:33:00,919 - #10 1
+INFO  14:33:00,919 - #24 ]
+INFO  14:33:00,919 - #31 )
+INFO  14:33:00,919 - #28 ;
+INFO  14:33:00,919 - #3 print
+INFO  14:33:00,919 - #30 (
+INFO  14:33:00,919 - #9 nizch
+INFO  14:33:00,919 - #23 [
+INFO  14:33:00,919 - #9 jedan
+INFO  14:33:00,919 - #16 *
+INFO  14:33:00,919 - #10 2
+INFO  14:33:00,919 - #24 ]
+INFO  14:33:00,919 - #31 )
+INFO  14:33:00,919 - #28 ;
+INFO  14:33:00,920 - #9 bodovi
+INFO  14:33:00,920 - #25 =
+INFO  14:33:00,920 - #9 bodovi
+INFO  14:33:00,920 - #14 +
+INFO  14:33:00,920 - #30 (
+INFO  14:33:00,920 - #9 pet
+INFO  14:33:00,920 - #16 *
+INFO  14:33:00,920 - #9 jedan
+INFO  14:33:00,920 - #15 -
+INFO  14:33:00,920 - #10 1
+INFO  14:33:00,920 - #31 )
+INFO  14:33:00,920 - #16 *
+INFO  14:33:00,920 - #9 bodovi
+INFO  14:33:00,920 - #15 -
+INFO  14:33:00,921 - #30 (
+INFO  14:33:00,921 - #10 3
+INFO  14:33:00,921 - #18 %
+INFO  14:33:00,921 - #10 2
+INFO  14:33:00,921 - #14 +
+INFO  14:33:00,921 - #10 3
+INFO  14:33:00,921 - #16 *
+INFO  14:33:00,921 - #10 2
+INFO  14:33:00,921 - #15 -
+INFO  14:33:00,921 - #10 3
+INFO  14:33:00,921 - #31 )
+INFO  14:33:00,921 - #28 ;
+INFO  14:33:00,921 - #3 print
+INFO  14:33:00,921 - #30 (
+INFO  14:33:00,921 - #9 bodovi
+INFO  14:33:00,921 - #31 )
+INFO  14:33:00,922 - #28 ;
+INFO  14:33:00,922 - #4 read
+INFO  14:33:00,922 - #30 (
+INFO  14:33:00,922 - #9 bodovi
+INFO  14:33:00,922 - #31 )
+INFO  14:33:00,922 - #28 ;
+INFO  14:33:00,922 - #9 bt
+INFO  14:33:00,922 - #25 =
+INFO  14:33:00,922 - #8 true
+INFO  14:33:00,922 - #28 ;
+INFO  14:33:00,922 - #32 if
+INFO  14:33:00,922 - #30 (
+INFO  14:33:00,922 - #9 bt
+INFO  14:33:00,922 - #31 )
+INFO  14:33:00,922 - #21 {
+INFO  14:33:00,923 - #3 print
+INFO  14:33:00,923 - #30 (
+INFO  14:33:00,923 - #9 bodovi
+INFO  14:33:00,923 - #31 )
+INFO  14:33:00,923 - #28 ;
+INFO  14:33:00,923 - #22 }
+INFO  14:33:00,923 - #33 else
+INFO  14:33:00,923 - #21 {
+INFO  14:33:00,923 - #3 print
+INFO  14:33:00,923 - #30 (
+INFO  14:33:00,923 - #9 bodovi
+INFO  14:33:00,923 - #14 +
+INFO  14:33:00,924 - #10 10
+INFO  14:33:00,924 - #31 )
+INFO  14:33:00,924 - #28 ;
+INFO  14:33:00,924 - #22 }
+INFO  14:33:00,924 - #32 if
+INFO  14:33:00,924 - #30 (
+INFO  14:33:00,925 - #9 bodovi
+INFO  14:33:00,925 - #38 >
+INFO  14:33:00,925 - #10 10
+INFO  14:33:00,926 - #31 )
+INFO  14:33:00,926 - #21 {
+INFO  14:33:00,926 - #3 print
+INFO  14:33:00,926 - #30 (
+INFO  14:33:00,926 - #11 +
+INFO  14:33:00,927 - #31 )
+INFO  14:33:00,927 - #28 ;
+INFO  14:33:00,927 - #22 }
+INFO  14:33:00,927 - #33 else
+INFO  14:33:00,927 - #21 {
+INFO  14:33:00,927 - #3 print
+INFO  14:33:00,927 - #30 (
+INFO  14:33:00,927 - #11 -
+INFO  14:33:00,927 - #31 )
+INFO  14:33:00,927 - #28 ;
+INFO  14:33:00,927 - #22 }
+INFO  14:33:00,927 - #22 }
+INFO  14:33:00,927 - #9 int
+INFO  14:33:00,928 - #9 f
+INFO  14:33:00,928 - #30 (
+INFO  14:33:00,928 - #9 int
+INFO  14:33:00,928 - #9 s
+INFO  14:33:00,928 - #29 ,
+INFO  14:33:00,929 - #9 char
+INFO  14:33:00,929 - #9 y
+INFO  14:33:00,929 - #23 [
+INFO  14:33:00,929 - #24 ]
+INFO  14:33:00,929 - #29 ,
+INFO  14:33:00,929 - #9 int
+INFO  14:33:00,929 - #9 t
+INFO  14:33:00,929 - #31 )
+INFO  14:33:00,930 - #9 int
+INFO  14:33:00,930 - #9 a
+INFO  14:33:00,930 - #29 ,
+INFO  14:33:00,930 - #9 b
+INFO  14:33:00,930 - #28 ;
+INFO  14:33:00,930 - #9 char
+INFO  14:33:00,930 - #9 c
+INFO  14:33:00,930 - #28 ;
+INFO  14:33:00,930 - #21 {
+INFO  14:33:00,930 - #37 return
+INFO  14:33:00,930 - #10 3
+INFO  14:33:00,930 - #28 ;
+INFO  14:33:00,930 - #9 s
+INFO  14:33:00,930 - #26 ++
+INFO  14:33:00,931 - #28 ;
+INFO  14:33:00,931 - #22 }
+INFO  14:33:00,931 - #6 void
+INFO  14:33:00,931 - #9 m
+INFO  14:33:00,931 - #30 (
+INFO  14:33:00,931 - #9 bool
+INFO  14:33:00,931 - #9 s
+INFO  14:33:00,931 - #29 ,
+INFO  14:33:00,931 - #9 char
+INFO  14:33:00,931 - #9 niz
+INFO  14:33:00,931 - #31 )
+INFO  14:33:00,931 - #21 {
+INFO  14:33:00,931 - #9 s
+INFO  14:33:00,931 - #25 =
+INFO  14:33:00,931 - #8 true
+INFO  14:33:00,932 - #28 ;
+INFO  14:33:00,932 - #22 }
+INFO  14:33:00,932 - #22 }
+INFO  14:33:00,943 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  Declarations(
+    Declarations(
+      Declarations(
+        Declarations(
+          Declarations(
+            Declarations(
+              NoDecls(
+              ) [NoDecls]
+              ProgConst(
+                ConstDecl(
+                  Type(
+                   int
+                  ) [Type]
+                  ConstDecl_0(
+                    SingleConst(
+                     nula
+                      NumConst(
+                       0
+                      ) [NumConst]
+                    ) [SingleConst]
+                  ) [ConstDecl_0]
+                ) [ConstDecl]
+              ) [ProgConst]
+            ) [Declarations]
+            ProgConst(
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                ConstDecl_0(
+                  SingleConst(
+                   jedan
+                    NumConst(
+                     1
+                    ) [NumConst]
+                  ) [SingleConst]
+                ) [ConstDecl_0]
+              ) [ConstDecl]
+            ) [ProgConst]
+          ) [Declarations]
+          ProgConst(
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              ConstDecl_0(
+                SingleConst(
+                 pet
+                  NumConst(
+                   5
+                  ) [NumConst]
+                ) [SingleConst]
+              ) [ConstDecl_0]
+            ) [ConstDecl]
+          ) [ProgConst]
+        ) [Declarations]
+        ProgConst(
+          ConstDecl(
+            Type(
+             char
+            ) [Type]
+            ConstDecl_1(
+              ConstDecl_0(
+                SingleConst(
+                 aa
+                  CharConst(
+                   a
+                  ) [CharConst]
+                ) [SingleConst]
+              ) [ConstDecl_0]
+              SingleConst(
+               bb
+                CharConst(
+                 b
+                ) [CharConst]
+              ) [SingleConst]
+            ) [ConstDecl_1]
+          ) [ConstDecl]
+        ) [ProgConst]
+      ) [Declarations]
+      ProgVar(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDecl_0(
+            VarArray(
+             niz
+            ) [VarArray]
+          ) [VarDecl_0]
+        ) [VarDecl]
+      ) [ProgVar]
+    ) [Declarations]
+    ProgVar(
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+        VarDecl_0(
+          VarArray(
+           nizch
+          ) [VarArray]
+        ) [VarDecl_0]
+      ) [VarDecl]
+    ) [ProgVar]
+  ) [Declarations]
+  MethodDeclarations(
+    MethodDeclarations(
+      MethodDeclarations(
+        NoMethodDecl(
+        ) [NoMethodDecl]
+        MethodDecl(
+          MethodReturnType(
+            Type(
+             int
+            ) [Type]
+           main
+          ) [MethodReturnType]
+          NoFormalParam(
+          ) [NoFormalParam]
+          MethodVarDeclList(
+            MethodVarDeclList(
+              NoMethodVarDecl(
+              ) [NoMethodVarDecl]
+              VarDecl(
+                Type(
+                 int
+                ) [Type]
+                VarDecl_0(
+                  Variable(
+                   bodovi
+                  ) [Variable]
+                ) [VarDecl_0]
+              ) [VarDecl]
+            ) [MethodVarDeclList]
+            VarDecl(
+              Type(
+               bool
+              ) [Type]
+              VarDecl_0(
+                Variable(
+                 bt
+                ) [Variable]
+              ) [VarDecl_0]
+            ) [VarDecl]
+          ) [MethodVarDeclList]
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  Statements(
+                    Statements(
+                      Statements(
+                        Statements(
+                          Statements(
+                            Statements(
+                              Statements(
+                                Statements(
+                                  Statements(
+                                    Statements(
+                                      Statements(
+                                        Statements(
+                                          Statements(
+                                            Statements(
+                                              Statements(
+                                                Statements(
+                                                  Statements(
+                                                    Statements(
+                                                      Statements(
+                                                        Statements(
+                                                          Statements(
+                                                            NoStmt(
+                                                            ) [NoStmt]
+                                                            MatchedStmt(
+                                                              StatementDesignator(
+                                                                Assignment(
+                                                                  Designator_1(
+                                                                   bodovi
+                                                                  ) [Designator_1]
+                                                                  PosExpr(
+                                                                    Term(
+                                                                      FactorNumConst(
+                                                                       0
+                                                                      ) [FactorNumConst]
+                                                                      NoMoreFactor(
+                                                                      ) [NoMoreFactor]
+                                                                    ) [Term]
+                                                                    NoMoreTerm(
+                                                                    ) [NoMoreTerm]
+                                                                  ) [PosExpr]
+                                                                ) [Assignment]
+                                                              ) [StatementDesignator]
+                                                            ) [MatchedStmt]
+                                                          ) [Statements]
+                                                          MatchedStmt(
+                                                            StatementDesignator(
+                                                              Increment(
+                                                                Designator_1(
+                                                                 bodovi
+                                                                ) [Designator_1]
+                                                              ) [Increment]
+                                                            ) [StatementDesignator]
+                                                          ) [MatchedStmt]
+                                                        ) [Statements]
+                                                        MatchedStmt(
+                                                          StatementDesignator(
+                                                            Assignment(
+                                                              Designator_1(
+                                                               bodovi
+                                                              ) [Designator_1]
+                                                              PosExpr(
+                                                                Term(
+                                                                  FactorDesignator(
+                                                                    Designator_1(
+                                                                     bodovi
+                                                                    ) [Designator_1]
+                                                                  ) [FactorDesignator]
+                                                                  NoMoreFactor(
+                                                                  ) [NoMoreFactor]
+                                                                ) [Term]
+                                                                MoreTerm(
+                                                                  NoMoreTerm(
+                                                                  ) [NoMoreTerm]
+                                                                  Addop(
+                                                                  ) [Addop]
+                                                                  Term(
+                                                                    FactorDesignator(
+                                                                      Designator_1(
+                                                                       jedan
+                                                                      ) [Designator_1]
+                                                                    ) [FactorDesignator]
+                                                                    NoMoreFactor(
+                                                                    ) [NoMoreFactor]
+                                                                  ) [Term]
+                                                                ) [MoreTerm]
+                                                              ) [PosExpr]
+                                                            ) [Assignment]
+                                                          ) [StatementDesignator]
+                                                        ) [MatchedStmt]
+                                                      ) [Statements]
+                                                      MatchedStmt(
+                                                        StatementDesignator(
+                                                          Assignment(
+                                                            Designator_1(
+                                                             bodovi
+                                                            ) [Designator_1]
+                                                            PosExpr(
+                                                              Term(
+                                                                FactorDesignator(
+                                                                  Designator_1(
+                                                                   bodovi
+                                                                  ) [Designator_1]
+                                                                ) [FactorDesignator]
+                                                                MoreFactor(
+                                                                  NoMoreFactor(
+                                                                  ) [NoMoreFactor]
+                                                                  Mulop(
+                                                                  ) [Mulop]
+                                                                  FactorDesignator(
+                                                                    Designator_1(
+                                                                     pet
+                                                                    ) [Designator_1]
+                                                                  ) [FactorDesignator]
+                                                                ) [MoreFactor]
+                                                              ) [Term]
+                                                              NoMoreTerm(
+                                                              ) [NoMoreTerm]
+                                                            ) [PosExpr]
+                                                          ) [Assignment]
+                                                        ) [StatementDesignator]
+                                                      ) [MatchedStmt]
+                                                    ) [Statements]
+                                                    MatchedStmt(
+                                                      StatementDesignator(
+                                                        Decrement(
+                                                          Designator_1(
+                                                           bodovi
+                                                          ) [Designator_1]
+                                                        ) [Decrement]
+                                                      ) [StatementDesignator]
+                                                    ) [MatchedStmt]
+                                                  ) [Statements]
+                                                  MatchedStmt(
+                                                    StmtPrint(
+                                                      PosExpr(
+                                                        Term(
+                                                          FactorDesignator(
+                                                            Designator_1(
+                                                             bodovi
+                                                            ) [Designator_1]
+                                                          ) [FactorDesignator]
+                                                          NoMoreFactor(
+                                                          ) [NoMoreFactor]
+                                                        ) [Term]
+                                                        NoMoreTerm(
+                                                        ) [NoMoreTerm]
+                                                      ) [PosExpr]
+                                                    ) [StmtPrint]
+                                                  ) [MatchedStmt]
+                                                ) [Statements]
+                                                MatchedStmt(
+                                                  StatementDesignator(
+                                                    Assignment(
+                                                      Designator_1(
+                                                       niz
+                                                      ) [Designator_1]
+                                                      PosExpr(
+                                                        Term(
+                                                          FactorNewExpr(
+                                                            Type(
+                                                             int
+                                                            ) [Type]
+                                                            PosExpr(
+                                                              Term(
+                                                                FactorNumConst(
+                                                                 3
+                                                                ) [FactorNumConst]
+                                                                NoMoreFactor(
+                                                                ) [NoMoreFactor]
+                                                              ) [Term]
+                                                              NoMoreTerm(
+                                                              ) [NoMoreTerm]
+                                                            ) [PosExpr]
+                                                          ) [FactorNewExpr]
+                                                          NoMoreFactor(
+                                                          ) [NoMoreFactor]
+                                                        ) [Term]
+                                                        NoMoreTerm(
+                                                        ) [NoMoreTerm]
+                                                      ) [PosExpr]
+                                                    ) [Assignment]
+                                                  ) [StatementDesignator]
+                                                ) [MatchedStmt]
+                                              ) [Statements]
+                                              MatchedStmt(
+                                                StatementDesignator(
+                                                  Assignment(
+                                                    Designator_0(
+                                                     niz
+                                                      PosExpr(
+                                                        Term(
+                                                          FactorDesignator(
+                                                            Designator_1(
+                                                             nula
+                                                            ) [Designator_1]
+                                                          ) [FactorDesignator]
+                                                          NoMoreFactor(
+                                                          ) [NoMoreFactor]
+                                                        ) [Term]
+                                                        NoMoreTerm(
+                                                        ) [NoMoreTerm]
+                                                      ) [PosExpr]
+                                                    ) [Designator_0]
+                                                    PosExpr(
+                                                      Term(
+                                                        FactorDesignator(
+                                                          Designator_1(
+                                                           jedan
+                                                          ) [Designator_1]
+                                                        ) [FactorDesignator]
+                                                        NoMoreFactor(
+                                                        ) [NoMoreFactor]
+                                                      ) [Term]
+                                                      NoMoreTerm(
+                                                      ) [NoMoreTerm]
+                                                    ) [PosExpr]
+                                                  ) [Assignment]
+                                                ) [StatementDesignator]
+                                              ) [MatchedStmt]
+                                            ) [Statements]
+                                            MatchedStmt(
+                                              StatementDesignator(
+                                                Assignment(
+                                                  Designator_0(
+                                                   niz
+                                                    PosExpr(
+                                                      Term(
+                                                        FactorNumConst(
+                                                         1
+                                                        ) [FactorNumConst]
+                                                        NoMoreFactor(
+                                                        ) [NoMoreFactor]
+                                                      ) [Term]
+                                                      NoMoreTerm(
+                                                      ) [NoMoreTerm]
+                                                    ) [PosExpr]
+                                                  ) [Designator_0]
+                                                  PosExpr(
+                                                    Term(
+                                                      FactorNumConst(
+                                                       2
+                                                      ) [FactorNumConst]
+                                                      NoMoreFactor(
+                                                      ) [NoMoreFactor]
+                                                    ) [Term]
+                                                    NoMoreTerm(
+                                                    ) [NoMoreTerm]
+                                                  ) [PosExpr]
+                                                ) [Assignment]
+                                              ) [StatementDesignator]
+                                            ) [MatchedStmt]
+                                          ) [Statements]
+                                          MatchedStmt(
+                                            StatementDesignator(
+                                              Assignment(
+                                                Designator_0(
+                                                 niz
+                                                  PosExpr(
+                                                    Term(
+                                                      FactorDesignator(
+                                                        Designator_0(
+                                                         niz
+                                                          PosExpr(
+                                                            Term(
+                                                              FactorDesignator(
+                                                                Designator_1(
+                                                                 jedan
+                                                                ) [Designator_1]
+                                                              ) [FactorDesignator]
+                                                              NoMoreFactor(
+                                                              ) [NoMoreFactor]
+                                                            ) [Term]
+                                                            NoMoreTerm(
+                                                            ) [NoMoreTerm]
+                                                          ) [PosExpr]
+                                                        ) [Designator_0]
+                                                      ) [FactorDesignator]
+                                                      NoMoreFactor(
+                                                      ) [NoMoreFactor]
+                                                    ) [Term]
+                                                    NoMoreTerm(
+                                                    ) [NoMoreTerm]
+                                                  ) [PosExpr]
+                                                ) [Designator_0]
+                                                PosExpr(
+                                                  Term(
+                                                    FactorDesignator(
+                                                      Designator_0(
+                                                       niz
+                                                        PosExpr(
+                                                          Term(
+                                                            FactorDesignator(
+                                                              Designator_0(
+                                                               niz
+                                                                PosExpr(
+                                                                  Term(
+                                                                    FactorNumConst(
+                                                                     0
+                                                                    ) [FactorNumConst]
+                                                                    NoMoreFactor(
+                                                                    ) [NoMoreFactor]
+                                                                  ) [Term]
+                                                                  NoMoreTerm(
+                                                                  ) [NoMoreTerm]
+                                                                ) [PosExpr]
+                                                              ) [Designator_0]
+                                                            ) [FactorDesignator]
+                                                            NoMoreFactor(
+                                                            ) [NoMoreFactor]
+                                                          ) [Term]
+                                                          NoMoreTerm(
+                                                          ) [NoMoreTerm]
+                                                        ) [PosExpr]
+                                                      ) [Designator_0]
+                                                    ) [FactorDesignator]
+                                                    MoreFactor(
+                                                      NoMoreFactor(
+                                                      ) [NoMoreFactor]
+                                                      Mulop(
+                                                      ) [Mulop]
+                                                      FactorNumConst(
+                                                       3
+                                                      ) [FactorNumConst]
+                                                    ) [MoreFactor]
+                                                  ) [Term]
+                                                  NoMoreTerm(
+                                                  ) [NoMoreTerm]
+                                                ) [PosExpr]
+                                              ) [Assignment]
+                                            ) [StatementDesignator]
+                                          ) [MatchedStmt]
+                                        ) [Statements]
+                                        MatchedStmt(
+                                          StatementDesignator(
+                                            Assignment(
+                                              Designator_1(
+                                               bodovi
+                                              ) [Designator_1]
+                                              PosExpr(
+                                                Term(
+                                                  FactorDesignator(
+                                                    Designator_0(
+                                                     niz
+                                                      PosExpr(
+                                                        Term(
+                                                          FactorNumConst(
+                                                           2
+                                                          ) [FactorNumConst]
+                                                          NoMoreFactor(
+                                                          ) [NoMoreFactor]
+                                                        ) [Term]
+                                                        NoMoreTerm(
+                                                        ) [NoMoreTerm]
+                                                      ) [PosExpr]
+                                                    ) [Designator_0]
+                                                  ) [FactorDesignator]
+                                                  MoreFactor(
+                                                    NoMoreFactor(
+                                                    ) [NoMoreFactor]
+                                                    Divop(
+                                                    ) [Divop]
+                                                    FactorDesignator(
+                                                      Designator_0(
+                                                       niz
+                                                        PosExpr(
+                                                          Term(
+                                                            FactorNumConst(
+                                                             0
+                                                            ) [FactorNumConst]
+                                                            NoMoreFactor(
+                                                            ) [NoMoreFactor]
+                                                          ) [Term]
+                                                          NoMoreTerm(
+                                                          ) [NoMoreTerm]
+                                                        ) [PosExpr]
+                                                      ) [Designator_0]
+                                                    ) [FactorDesignator]
+                                                  ) [MoreFactor]
+                                                ) [Term]
+                                                NoMoreTerm(
+                                                ) [NoMoreTerm]
+                                              ) [PosExpr]
+                                            ) [Assignment]
+                                          ) [StatementDesignator]
+                                        ) [MatchedStmt]
+                                      ) [Statements]
+                                      MatchedStmt(
+                                        StmtPrint(
+                                          PosExpr(
+                                            Term(
+                                              FactorDesignator(
+                                                Designator_1(
+                                                 bodovi
+                                                ) [Designator_1]
+                                              ) [FactorDesignator]
+                                              NoMoreFactor(
+                                              ) [NoMoreFactor]
+                                            ) [Term]
+                                            NoMoreTerm(
+                                            ) [NoMoreTerm]
+                                          ) [PosExpr]
+                                        ) [StmtPrint]
+                                      ) [MatchedStmt]
+                                    ) [Statements]
+                                    MatchedStmt(
+                                      StmtPrint(
+                                        PosExpr(
+                                          Term(
+                                            FactorDesignator(
+                                              Designator_0(
+                                               niz
+                                                PosExpr(
+                                                  Term(
+                                                    FactorNumConst(
+                                                     2
+                                                    ) [FactorNumConst]
+                                                    NoMoreFactor(
+                                                    ) [NoMoreFactor]
+                                                  ) [Term]
+                                                  NoMoreTerm(
+                                                  ) [NoMoreTerm]
+                                                ) [PosExpr]
+                                              ) [Designator_0]
+                                            ) [FactorDesignator]
+                                            NoMoreFactor(
+                                            ) [NoMoreFactor]
+                                          ) [Term]
+                                          NoMoreTerm(
+                                          ) [NoMoreTerm]
+                                        ) [PosExpr]
+                                      ) [StmtPrint]
+                                    ) [MatchedStmt]
+                                  ) [Statements]
+                                  MatchedStmt(
+                                    StatementDesignator(
+                                      Assignment(
+                                        Designator_1(
+                                         nizch
+                                        ) [Designator_1]
+                                        PosExpr(
+                                          Term(
+                                            FactorNewExpr(
+                                              Type(
+                                               char
+                                              ) [Type]
+                                              PosExpr(
+                                                Term(
+                                                  FactorNumConst(
+                                                   3
+                                                  ) [FactorNumConst]
+                                                  NoMoreFactor(
+                                                  ) [NoMoreFactor]
+                                                ) [Term]
+                                                NoMoreTerm(
+                                                ) [NoMoreTerm]
+                                              ) [PosExpr]
+                                            ) [FactorNewExpr]
+                                            NoMoreFactor(
+                                            ) [NoMoreFactor]
+                                          ) [Term]
+                                          NoMoreTerm(
+                                          ) [NoMoreTerm]
+                                        ) [PosExpr]
+                                      ) [Assignment]
+                                    ) [StatementDesignator]
+                                  ) [MatchedStmt]
+                                ) [Statements]
+                                MatchedStmt(
+                                  StatementDesignator(
+                                    Assignment(
+                                      Designator_0(
+                                       nizch
+                                        PosExpr(
+                                          Term(
+                                            FactorNumConst(
+                                             0
+                                            ) [FactorNumConst]
+                                            NoMoreFactor(
+                                            ) [NoMoreFactor]
+                                          ) [Term]
+                                          NoMoreTerm(
+                                          ) [NoMoreTerm]
+                                        ) [PosExpr]
+                                      ) [Designator_0]
+                                      PosExpr(
+                                        Term(
+                                          FactorCharConst(
+                                           a
+                                          ) [FactorCharConst]
+                                          NoMoreFactor(
+                                          ) [NoMoreFactor]
+                                        ) [Term]
+                                        NoMoreTerm(
+                                        ) [NoMoreTerm]
+                                      ) [PosExpr]
+                                    ) [Assignment]
+                                  ) [StatementDesignator]
+                                ) [MatchedStmt]
+                              ) [Statements]
+                              MatchedStmt(
+                                StatementDesignator(
+                                  Assignment(
+                                    Designator_0(
+                                     nizch
+                                      PosExpr(
+                                        Term(
+                                          FactorDesignator(
+                                            Designator_1(
+                                             jedan
+                                            ) [Designator_1]
+                                          ) [FactorDesignator]
+                                          NoMoreFactor(
+                                          ) [NoMoreFactor]
+                                        ) [Term]
+                                        NoMoreTerm(
+                                        ) [NoMoreTerm]
+                                      ) [PosExpr]
+                                    ) [Designator_0]
+                                    PosExpr(
+                                      Term(
+                                        FactorCharConst(
+                                         b
+                                        ) [FactorCharConst]
+                                        NoMoreFactor(
+                                        ) [NoMoreFactor]
+                                      ) [Term]
+                                      NoMoreTerm(
+                                      ) [NoMoreTerm]
+                                    ) [PosExpr]
+                                  ) [Assignment]
+                                ) [StatementDesignator]
+                              ) [MatchedStmt]
+                            ) [Statements]
+                            MatchedStmt(
+                              StatementDesignator(
+                                Assignment(
+                                  Designator_0(
+                                   nizch
+                                    PosExpr(
+                                      Term(
+                                        FactorDesignator(
+                                          Designator_1(
+                                           pet
+                                          ) [Designator_1]
+                                        ) [FactorDesignator]
+                                        NoMoreFactor(
+                                        ) [NoMoreFactor]
+                                      ) [Term]
+                                      MoreTerm(
+                                        NoMoreTerm(
+                                        ) [NoMoreTerm]
+                                        Subop(
+                                        ) [Subop]
+                                        Term(
+                                          FactorNumConst(
+                                           3
+                                          ) [FactorNumConst]
+                                          NoMoreFactor(
+                                          ) [NoMoreFactor]
+                                        ) [Term]
+                                      ) [MoreTerm]
+                                    ) [PosExpr]
+                                  ) [Designator_0]
+                                  PosExpr(
+                                    Term(
+                                      FactorCharConst(
+                                       c
+                                      ) [FactorCharConst]
+                                      NoMoreFactor(
+                                      ) [NoMoreFactor]
+                                    ) [Term]
+                                    NoMoreTerm(
+                                    ) [NoMoreTerm]
+                                  ) [PosExpr]
+                                ) [Assignment]
+                              ) [StatementDesignator]
+                            ) [MatchedStmt]
+                          ) [Statements]
+                          MatchedStmt(
+                            StmtPrint(
+                              PosExpr(
+                                Term(
+                                  FactorDesignator(
+                                    Designator_0(
+                                     nizch
+                                      PosExpr(
+                                        Term(
+                                          FactorNumConst(
+                                           1
+                                          ) [FactorNumConst]
+                                          NoMoreFactor(
+                                          ) [NoMoreFactor]
+                                        ) [Term]
+                                        NoMoreTerm(
+                                        ) [NoMoreTerm]
+                                      ) [PosExpr]
+                                    ) [Designator_0]
+                                  ) [FactorDesignator]
+                                  NoMoreFactor(
+                                  ) [NoMoreFactor]
+                                ) [Term]
+                                NoMoreTerm(
+                                ) [NoMoreTerm]
+                              ) [PosExpr]
+                            ) [StmtPrint]
+                          ) [MatchedStmt]
+                        ) [Statements]
+                        MatchedStmt(
+                          StmtPrint(
+                            PosExpr(
+                              Term(
+                                FactorDesignator(
+                                  Designator_0(
+                                   nizch
+                                    PosExpr(
+                                      Term(
+                                        FactorDesignator(
+                                          Designator_1(
+                                           jedan
+                                          ) [Designator_1]
+                                        ) [FactorDesignator]
+                                        MoreFactor(
+                                          NoMoreFactor(
+                                          ) [NoMoreFactor]
+                                          Mulop(
+                                          ) [Mulop]
+                                          FactorNumConst(
+                                           2
+                                          ) [FactorNumConst]
+                                        ) [MoreFactor]
+                                      ) [Term]
+                                      NoMoreTerm(
+                                      ) [NoMoreTerm]
+                                    ) [PosExpr]
+                                  ) [Designator_0]
+                                ) [FactorDesignator]
+                                NoMoreFactor(
+                                ) [NoMoreFactor]
+                              ) [Term]
+                              NoMoreTerm(
+                              ) [NoMoreTerm]
+                            ) [PosExpr]
+                          ) [StmtPrint]
+                        ) [MatchedStmt]
+                      ) [Statements]
+                      MatchedStmt(
+                        StatementDesignator(
+                          Assignment(
+                            Designator_1(
+                             bodovi
+                            ) [Designator_1]
+                            PosExpr(
+                              Term(
+                                FactorDesignator(
+                                  Designator_1(
+                                   bodovi
+                                  ) [Designator_1]
+                                ) [FactorDesignator]
+                                NoMoreFactor(
+                                ) [NoMoreFactor]
+                              ) [Term]
+                              MoreTerm(
+                                MoreTerm(
+                                  NoMoreTerm(
+                                  ) [NoMoreTerm]
+                                  Addop(
+                                  ) [Addop]
+                                  Term(
+                                    FactorExpr(
+                                      PosExpr(
+                                        Term(
+                                          FactorDesignator(
+                                            Designator_1(
+                                             pet
+                                            ) [Designator_1]
+                                          ) [FactorDesignator]
+                                          MoreFactor(
+                                            NoMoreFactor(
+                                            ) [NoMoreFactor]
+                                            Mulop(
+                                            ) [Mulop]
+                                            FactorDesignator(
+                                              Designator_1(
+                                               jedan
+                                              ) [Designator_1]
+                                            ) [FactorDesignator]
+                                          ) [MoreFactor]
+                                        ) [Term]
+                                        MoreTerm(
+                                          NoMoreTerm(
+                                          ) [NoMoreTerm]
+                                          Subop(
+                                          ) [Subop]
+                                          Term(
+                                            FactorNumConst(
+                                             1
+                                            ) [FactorNumConst]
+                                            NoMoreFactor(
+                                            ) [NoMoreFactor]
+                                          ) [Term]
+                                        ) [MoreTerm]
+                                      ) [PosExpr]
+                                    ) [FactorExpr]
+                                    MoreFactor(
+                                      NoMoreFactor(
+                                      ) [NoMoreFactor]
+                                      Mulop(
+                                      ) [Mulop]
+                                      FactorDesignator(
+                                        Designator_1(
+                                         bodovi
+                                        ) [Designator_1]
+                                      ) [FactorDesignator]
+                                    ) [MoreFactor]
+                                  ) [Term]
+                                ) [MoreTerm]
+                                Subop(
+                                ) [Subop]
+                                Term(
+                                  FactorExpr(
+                                    PosExpr(
+                                      Term(
+                                        FactorNumConst(
+                                         3
+                                        ) [FactorNumConst]
+                                        MoreFactor(
+                                          NoMoreFactor(
+                                          ) [NoMoreFactor]
+                                          Modop(
+                                          ) [Modop]
+                                          FactorNumConst(
+                                           2
+                                          ) [FactorNumConst]
+                                        ) [MoreFactor]
+                                      ) [Term]
+                                      MoreTerm(
+                                        MoreTerm(
+                                          NoMoreTerm(
+                                          ) [NoMoreTerm]
+                                          Addop(
+                                          ) [Addop]
+                                          Term(
+                                            FactorNumConst(
+                                             3
+                                            ) [FactorNumConst]
+                                            MoreFactor(
+                                              NoMoreFactor(
+                                              ) [NoMoreFactor]
+                                              Mulop(
+                                              ) [Mulop]
+                                              FactorNumConst(
+                                               2
+                                              ) [FactorNumConst]
+                                            ) [MoreFactor]
+                                          ) [Term]
+                                        ) [MoreTerm]
+                                        Subop(
+                                        ) [Subop]
+                                        Term(
+                                          FactorNumConst(
+                                           3
+                                          ) [FactorNumConst]
+                                          NoMoreFactor(
+                                          ) [NoMoreFactor]
+                                        ) [Term]
+                                      ) [MoreTerm]
+                                    ) [PosExpr]
+                                  ) [FactorExpr]
+                                  NoMoreFactor(
+                                  ) [NoMoreFactor]
+                                ) [Term]
+                              ) [MoreTerm]
+                            ) [PosExpr]
+                          ) [Assignment]
+                        ) [StatementDesignator]
+                      ) [MatchedStmt]
+                    ) [Statements]
+                    MatchedStmt(
+                      StmtPrint(
+                        PosExpr(
+                          Term(
+                            FactorDesignator(
+                              Designator_1(
+                               bodovi
+                              ) [Designator_1]
+                            ) [FactorDesignator]
+                            NoMoreFactor(
+                            ) [NoMoreFactor]
+                          ) [Term]
+                          NoMoreTerm(
+                          ) [NoMoreTerm]
+                        ) [PosExpr]
+                      ) [StmtPrint]
+                    ) [MatchedStmt]
+                  ) [Statements]
+                  MatchedStmt(
+                    StmtRead(
+                      Designator_1(
+                       bodovi
+                      ) [Designator_1]
+                    ) [StmtRead]
+                  ) [MatchedStmt]
+                ) [Statements]
+                MatchedStmt(
+                  StatementDesignator(
+                    Assignment(
+                      Designator_1(
+                       bt
+                      ) [Designator_1]
+                      PosExpr(
+                        Term(
+                          FactorBoolConst(
+                           true
+                          ) [FactorBoolConst]
+                          NoMoreFactor(
+                          ) [NoMoreFactor]
+                        ) [Term]
+                        NoMoreTerm(
+                        ) [NoMoreTerm]
+                      ) [PosExpr]
+                    ) [Assignment]
+                  ) [StatementDesignator]
+                ) [MatchedStmt]
+              ) [Statements]
+              MatchedStmt(
+                StmtIfElse(
+                  CondDerived1(
+                    Condition_one(
+                      Cond_term_one(
+                        Cond_fact_one(
+                          PosExpr(
+                            Term(
+                              FactorDesignator(
+                                Designator_1(
+                                 bt
+                                ) [Designator_1]
+                              ) [FactorDesignator]
+                              NoMoreFactor(
+                              ) [NoMoreFactor]
+                            ) [Term]
+                            NoMoreTerm(
+                            ) [NoMoreTerm]
+                          ) [PosExpr]
+                        ) [Cond_fact_one]
+                      ) [Cond_term_one]
+                    ) [Condition_one]
+                  ) [CondDerived1]
+                  StmtList(
+                    Statements(
+                      NoStmt(
+                      ) [NoStmt]
+                      MatchedStmt(
+                        StmtPrint(
+                          PosExpr(
+                            Term(
+                              FactorDesignator(
+                                Designator_1(
+                                 bodovi
+                                ) [Designator_1]
+                              ) [FactorDesignator]
+                              NoMoreFactor(
+                              ) [NoMoreFactor]
+                            ) [Term]
+                            NoMoreTerm(
+                            ) [NoMoreTerm]
+                          ) [PosExpr]
+                        ) [StmtPrint]
+                      ) [MatchedStmt]
+                    ) [Statements]
+                  ) [StmtList]
+                  StmtList(
+                    Statements(
+                      NoStmt(
+                      ) [NoStmt]
+                      MatchedStmt(
+                        StmtPrint(
+                          PosExpr(
+                            Term(
+                              FactorDesignator(
+                                Designator_1(
+                                 bodovi
+                                ) [Designator_1]
+                              ) [FactorDesignator]
+                              NoMoreFactor(
+                              ) [NoMoreFactor]
+                            ) [Term]
+                            MoreTerm(
+                              NoMoreTerm(
+                              ) [NoMoreTerm]
+                              Addop(
+                              ) [Addop]
+                              Term(
+                                FactorNumConst(
+                                 10
+                                ) [FactorNumConst]
+                                NoMoreFactor(
+                                ) [NoMoreFactor]
+                              ) [Term]
+                            ) [MoreTerm]
+                          ) [PosExpr]
+                        ) [StmtPrint]
+                      ) [MatchedStmt]
+                    ) [Statements]
+                  ) [StmtList]
+                ) [StmtIfElse]
+              ) [MatchedStmt]
+            ) [Statements]
+            MatchedStmt(
+              StmtIfElse(
+                CondDerived1(
+                  Condition_one(
+                    Cond_term_one(
+                      Cond_fact_two(
+                        PosExpr(
+                          Term(
+                            FactorDesignator(
+                              Designator_1(
+                               bodovi
+                              ) [Designator_1]
+                            ) [FactorDesignator]
+                            NoMoreFactor(
+                            ) [NoMoreFactor]
+                          ) [Term]
+                          NoMoreTerm(
+                          ) [NoMoreTerm]
+                        ) [PosExpr]
+                        RelopGT(
+                        ) [RelopGT]
+                        PosExpr(
+                          Term(
+                            FactorNumConst(
+                             10
+                            ) [FactorNumConst]
+                            NoMoreFactor(
+                            ) [NoMoreFactor]
+                          ) [Term]
+                          NoMoreTerm(
+                          ) [NoMoreTerm]
+                        ) [PosExpr]
+                      ) [Cond_fact_two]
+                    ) [Cond_term_one]
+                  ) [Condition_one]
+                ) [CondDerived1]
+                StmtList(
+                  Statements(
+                    NoStmt(
+                    ) [NoStmt]
+                    MatchedStmt(
+                      StmtPrint(
+                        PosExpr(
+                          Term(
+                            FactorCharConst(
+                             +
+                            ) [FactorCharConst]
+                            NoMoreFactor(
+                            ) [NoMoreFactor]
+                          ) [Term]
+                          NoMoreTerm(
+                          ) [NoMoreTerm]
+                        ) [PosExpr]
+                      ) [StmtPrint]
+                    ) [MatchedStmt]
+                  ) [Statements]
+                ) [StmtList]
+                StmtList(
+                  Statements(
+                    NoStmt(
+                    ) [NoStmt]
+                    MatchedStmt(
+                      StmtPrint(
+                        PosExpr(
+                          Term(
+                            FactorCharConst(
+                             -
+                            ) [FactorCharConst]
+                            NoMoreFactor(
+                            ) [NoMoreFactor]
+                          ) [Term]
+                          NoMoreTerm(
+                          ) [NoMoreTerm]
+                        ) [PosExpr]
+                      ) [StmtPrint]
+                    ) [MatchedStmt]
+                  ) [Statements]
+                ) [StmtList]
+              ) [StmtIfElse]
+            ) [MatchedStmt]
+          ) [Statements]
+        ) [MethodDecl]
+      ) [MethodDeclarations]
+      MethodDecl(
+        MethodReturnType(
+          Type(
+           int
+          ) [Type]
+         f
+        ) [MethodReturnType]
+        FormalParams(
+          FormalParamDecls(
+            FormalParamDecls(
+              SingleFormalParamDecl(
+                FormalParDecl(
+                  Type(
+                   int
+                  ) [Type]
+                 s
+                ) [FormalParDecl]
+              ) [SingleFormalParamDecl]
+              FormalParDeclArr(
+                Type(
+                 char
+                ) [Type]
+               y
+              ) [FormalParDeclArr]
+            ) [FormalParamDecls]
+            FormalParDecl(
+              Type(
+               int
+              ) [Type]
+             t
+            ) [FormalParDecl]
+          ) [FormalParamDecls]
+        ) [FormalParams]
+        MethodVarDeclList(
+          MethodVarDeclList(
+            NoMethodVarDecl(
+            ) [NoMethodVarDecl]
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              VarDecl_1(
+                VarDecl_0(
+                  Variable(
+                   a
+                  ) [Variable]
+                ) [VarDecl_0]
+                Variable(
+                 b
+                ) [Variable]
+              ) [VarDecl_1]
+            ) [VarDecl]
+          ) [MethodVarDeclList]
+          VarDecl(
+            Type(
+             char
+            ) [Type]
+            VarDecl_0(
+              Variable(
+               c
+              ) [Variable]
+            ) [VarDecl_0]
+          ) [VarDecl]
+        ) [MethodVarDeclList]
+        Statements(
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            MatchedStmt(
+              StmtReturnExpr(
+                PosExpr(
+                  Term(
+                    FactorNumConst(
+                     3
+                    ) [FactorNumConst]
+                    NoMoreFactor(
+                    ) [NoMoreFactor]
+                  ) [Term]
+                  NoMoreTerm(
+                  ) [NoMoreTerm]
+                ) [PosExpr]
+              ) [StmtReturnExpr]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            StatementDesignator(
+              Increment(
+                Designator_1(
+                 s
+                ) [Designator_1]
+              ) [Increment]
+            ) [StatementDesignator]
+          ) [MatchedStmt]
+        ) [Statements]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodVoidType(
+       m
+      ) [MethodVoidType]
+      FormalParams(
+        FormalParamDecls(
+          SingleFormalParamDecl(
+            FormalParDecl(
+              Type(
+               bool
+              ) [Type]
+             s
+            ) [FormalParDecl]
+          ) [SingleFormalParamDecl]
+          FormalParDecl(
+            Type(
+             char
+            ) [Type]
+           niz
+          ) [FormalParDecl]
+        ) [FormalParamDecls]
+      ) [FormalParams]
+      NoMethodVarDecl(
+      ) [NoMethodVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        MatchedStmt(
+          StatementDesignator(
+            Assignment(
+              Designator_1(
+               s
+              ) [Designator_1]
+              PosExpr(
+                Term(
+                  FactorBoolConst(
+                   true
+                  ) [FactorBoolConst]
+                  NoMoreFactor(
+                  ) [NoMoreFactor]
+                ) [Term]
+                NoMoreTerm(
+                ) [NoMoreTerm]
+              ) [PosExpr]
+            ) [Assignment]
+          ) [StatementDesignator]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  14:33:00,946 - ===================================
+INFO  14:33:00,950 - Deklarisana konstanta nula (tip: int, vrednost: 0) na liniji 5
+INFO  14:33:00,950 - Deklarisana konstanta jedan (tip: int, vrednost: 1) na liniji 6
+INFO  14:33:00,950 - Deklarisana konstanta pet (tip: int, vrednost: 5) na liniji 7
+INFO  14:33:00,950 - Deklarisana konstanta aa (tip: char, vrednost: a) na liniji 8
+INFO  14:33:00,950 - Deklarisana konstanta bb (tip: char, vrednost: b) na liniji 8
+INFO  14:33:00,951 - Deklarisan niz niz (tip: int) na liniji 10
+INFO  14:33:00,951 - Deklarisan niz nizch (tip: char) na liniji 11
+ERROR 14:33:00,951 - Semanticka greska - funkcija main ne sme imati povratnu vrednost na liniji 14
+INFO  14:33:00,951 - Obradjuje se funkcija main (povratni tip: int) na liniji 14
+INFO  14:33:00,951 - Deklarisana promenljiva bodovi (tip: int) na liniji 15
+INFO  14:33:00,951 - Deklarisana promenljiva bt (tip: bool) na liniji 16
+ERROR 14:33:00,952 - Semanticka greska - funkcija main nema return iskaz
+INFO  14:33:00,952 - Obradjuje se funkcija f (povratni tip: int) na liniji 63
+INFO  14:33:00,952 - Deklarisana promenljiva a (tip: int) na liniji 64
+INFO  14:33:00,952 - Deklarisana promenljiva b (tip: int) na liniji 64
+INFO  14:33:00,952 - Deklarisana promenljiva c (tip: char) na liniji 65
+INFO  14:33:00,952 - Obradjuje se funkcija m (povratni tip: void) na liniji 71
+INFO  14:33:00,952 - ===================================
+ERROR 14:33:00,953 - Parsiranje NIJE uspesno zavrseno!

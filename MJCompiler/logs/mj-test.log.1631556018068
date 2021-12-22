@@ -1,0 +1,103 @@
+INFO  19:59:44,860 - Compiling source file: C:\Users\Ogi\Desktop\workspace\MJCompiler\test\program.mj
+INFO  19:59:44,900 - #2 program
+INFO  19:59:44,900 - #9 test301
+INFO  19:59:44,900 - #21 {
+INFO  19:59:44,901 - #6 void
+INFO  19:59:44,902 - #9 main
+INFO  19:59:44,903 - #30 (
+INFO  19:59:44,903 - #31 )
+INFO  19:59:44,904 - #21 {
+INFO  19:59:44,905 - #3 print
+INFO  19:59:44,905 - #30 (
+INFO  19:59:44,905 - #11 a
+INFO  19:59:44,905 - #31 )
+INFO  19:59:44,907 - #28 ;
+INFO  19:59:44,907 - #3 print
+INFO  19:59:44,907 - #30 (
+INFO  19:59:44,907 - #10 1
+INFO  19:59:44,907 - #31 )
+INFO  19:59:44,907 - #28 ;
+INFO  19:59:44,907 - #3 print
+INFO  19:59:44,907 - #30 (
+INFO  19:59:44,908 - #8 true
+INFO  19:59:44,908 - #31 )
+INFO  19:59:44,909 - #28 ;
+INFO  19:59:44,909 - #22 }
+INFO  19:59:44,909 - #22 }
+INFO  19:59:44,922 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoDecls(
+  ) [NoDecls]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodVoidType(
+       main
+      ) [MethodVoidType]
+      NoFormalParam(
+      ) [NoFormalParam]
+      NoMethodVarDecl(
+      ) [NoMethodVarDecl]
+      Statements(
+        Statements(
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            MatchedStmt(
+              StmtPrint(
+                PosExpr(
+                  Term(
+                    FactorCharConst(
+                     a
+                    ) [FactorCharConst]
+                    NoMoreFactor(
+                    ) [NoMoreFactor]
+                  ) [Term]
+                  NoMoreTerm(
+                  ) [NoMoreTerm]
+                ) [PosExpr]
+              ) [StmtPrint]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            StmtPrint(
+              PosExpr(
+                Term(
+                  FactorNumConst(
+                   1
+                  ) [FactorNumConst]
+                  NoMoreFactor(
+                  ) [NoMoreFactor]
+                ) [Term]
+                NoMoreTerm(
+                ) [NoMoreTerm]
+              ) [PosExpr]
+            ) [StmtPrint]
+          ) [MatchedStmt]
+        ) [Statements]
+        MatchedStmt(
+          StmtPrint(
+            PosExpr(
+              Term(
+                FactorBoolConst(
+                 true
+                ) [FactorBoolConst]
+                NoMoreFactor(
+                ) [NoMoreFactor]
+              ) [Term]
+              NoMoreTerm(
+              ) [NoMoreTerm]
+            ) [PosExpr]
+          ) [StmtPrint]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  19:59:44,922 - ===================================
+INFO  19:59:44,925 - Obradjuje se funkcija main (povratni tip: void) na liniji 7
+INFO  19:59:44,925 - ===================================
+INFO  19:59:44,929 - Parsiranje uspesno zavrseno!

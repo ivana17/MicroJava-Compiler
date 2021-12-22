@@ -1,0 +1,53 @@
+INFO  21:53:22,656 - Compiling source file: C:\Users\Ogi\Desktop\workspace\MJCompiler\test\program.mj
+INFO  21:53:22,680 - #2 program
+INFO  21:53:22,681 - #9 MJProgram
+INFO  21:53:22,681 - #21 {
+INFO  21:53:22,682 - #9 int
+INFO  21:53:22,682 - #9 main
+INFO  21:53:22,682 - #30 (
+INFO  21:53:22,682 - #31 )
+INFO  21:53:22,683 - #21 {
+INFO  21:53:22,683 - #3 print
+INFO  21:53:22,683 - #30 (
+INFO  21:53:22,683 - #10 1
+INFO  21:53:22,683 - #31 )
+INFO  21:53:22,684 - #28 ;
+INFO  21:53:22,684 - #22 }
+INFO  21:53:22,684 - #22 }
+INFO  21:53:22,686 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  NoVarDecl(
+  ) [NoVarDecl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      Type(
+       int
+      ) [Type]
+     main
+      NoFormalParam(
+      ) [NoFormalParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        MatchedStmt(
+          PrintStmt(
+            TermExpr(
+              FactorTerm(
+                NumConst(
+                 1
+                ) [NumConst]
+              ) [FactorTerm]
+            ) [TermExpr]
+          ) [PrintStmt]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:53:22,687 - ===================================

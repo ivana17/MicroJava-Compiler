@@ -1,0 +1,37 @@
+INFO  18:56:28,897 - Compiling source file: C:\Users\Ogi\Desktop\workspace\MJCompiler\test\program.mj
+INFO  18:56:28,935 - #2 program
+INFO  18:56:28,935 - #9 test301
+INFO  18:56:28,935 - #21 {
+INFO  18:56:28,936 - #6 void
+INFO  18:56:28,936 - #9 main
+INFO  18:56:28,936 - #30 (
+INFO  18:56:28,936 - #31 )
+INFO  18:56:28,937 - #21 {
+INFO  18:56:28,937 - #22 }
+INFO  18:56:28,938 - #22 }
+INFO  18:56:28,951 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoDecls(
+  ) [NoDecls]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodVoidType(
+       main
+      ) [MethodVoidType]
+      NoFormalParam(
+      ) [NoFormalParam]
+      NoMethodVarDecl(
+      ) [NoMethodVarDecl]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:56:28,951 - ===================================
+INFO  18:56:28,954 - Obradjuje se funkcija main (povratni tip: void) na liniji 5
+INFO  18:56:28,954 - ===================================
+INFO  18:56:28,957 - Parsiranje uspesno zavrseno!

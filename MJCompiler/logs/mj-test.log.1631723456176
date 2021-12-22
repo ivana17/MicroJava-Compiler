@@ -1,0 +1,65 @@
+INFO  18:30:28,137 - Compiling source file: C:\Users\Ogi\Desktop\workspace\MJCompiler\test\program.mj
+INFO  18:30:28,170 - #2 program
+INFO  18:30:28,170 - #9 MJProgram
+INFO  18:30:28,170 - #21 {
+INFO  18:30:28,171 - #5 const
+ERROR 18:30:28,171 - 
+Sintaksna greska na liniji 4
+INFO  18:30:28,171 - #9 int
+INFO  18:30:28,171 - #9 N
+INFO  18:30:28,171 - #25 =
+INFO  18:30:28,172 - #10 2
+INFO  18:30:28,172 - #28 ;
+INFO  18:30:28,172 - #6 void
+INFO  18:30:28,172 - #9 main
+INFO  18:30:28,172 - #30 (
+INFO  18:30:28,172 - #31 )
+INFO  18:30:28,172 - #9 bool
+INFO  18:30:28,172 - #9 x
+INFO  18:30:28,172 - #29 ,
+INFO  18:30:28,172 - #9 y
+INFO  18:30:28,173 - #28 ;
+INFO  18:30:28,173 - #21 {
+INFO  18:30:28,173 - #9 x
+INFO  18:30:28,174 - #25 =
+ERROR 18:30:28,174 - Izvrsen oporavak od greske (varDecl) do ; 
+ERROR 18:30:28,175 - 
+Sintaksna greska na liniji 8
+INFO  18:30:28,175 - #8 true
+INFO  18:30:28,175 - #28 ;
+INFO  18:30:28,175 - #9 y
+INFO  18:30:28,175 - #25 =
+INFO  18:30:28,175 - #8 true
+INFO  18:30:28,175 - #28 ;
+INFO  18:30:28,175 - #32 if
+INFO  18:30:28,175 - #30 (
+INFO  18:30:28,175 - #9 x
+INFO  18:30:28,175 - #12 &&
+INFO  18:30:28,175 - #9 y
+INFO  18:30:28,175 - #12 &&
+INFO  18:30:28,175 - #9 x
+INFO  18:30:28,175 - #43 !=
+INFO  18:30:28,175 - #9 y
+INFO  18:30:28,175 - #12 &&
+INFO  18:30:28,175 - #9 N
+INFO  18:30:28,175 - #39 ==
+INFO  18:30:28,176 - #10 2
+INFO  18:30:28,176 - #31 )
+INFO  18:30:28,176 - #21 {
+INFO  18:30:28,176 - #3 print
+INFO  18:30:28,176 - #30 (
+INFO  18:30:28,176 - #10 1
+INFO  18:30:28,176 - #31 )
+INFO  18:30:28,176 - #28 ;
+INFO  18:30:28,176 - #22 }
+INFO  18:30:28,176 - #33 else
+INFO  18:30:28,176 - #21 {
+INFO  18:30:28,176 - #3 print
+INFO  18:30:28,176 - #30 (
+INFO  18:30:28,176 - #10 2
+INFO  18:30:28,176 - #31 )
+INFO  18:30:28,176 - #28 ;
+INFO  18:30:28,176 - #22 }
+INFO  18:30:28,177 - #22 }
+INFO  18:30:28,177 - #22 }
+ERROR 18:30:28,177 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 26

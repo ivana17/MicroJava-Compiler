@@ -1,0 +1,309 @@
+INFO  21:53:29,879 - Compiling source file: C:\Users\Ogi\Desktop\workspace\MJCompiler\test\program.mj
+INFO  21:53:29,912 - #2 program
+INFO  21:53:29,912 - #9 MJProgram
+INFO  21:53:29,912 - #9 int
+INFO  21:53:29,913 - #9 x
+INFO  21:53:29,913 - #29 ,
+INFO  21:53:29,914 - #9 y
+INFO  21:53:29,914 - #9 dcaads
+ERROR 21:53:29,914 - 
+Sintaksna greska na liniji 2
+INFO  21:53:29,914 - #28 ;
+INFO  21:53:29,914 - #9 char
+INFO  21:53:29,914 - #9 s
+INFO  21:53:29,915 - #28 ;
+ERROR 21:53:29,915 - Izvrsen oporavak do 1 u liniji 8
+INFO  21:53:29,916 - #21 {
+INFO  21:53:29,916 - #9 int
+INFO  21:53:29,916 - #9 k
+INFO  21:53:29,916 - #30 (
+INFO  21:53:29,917 - #31 )
+INFO  21:53:29,917 - #9 int
+INFO  21:53:29,917 - #9 c
+INFO  21:53:29,918 - #28 ;
+INFO  21:53:29,918 - #21 {
+INFO  21:53:29,918 - #9 c
+INFO  21:53:29,919 - #25 =
+INFO  21:53:29,919 - #10 2
+INFO  21:53:29,919 - #28 ;
+INFO  21:53:29,920 - #37 return
+INFO  21:53:29,920 - #9 c
+INFO  21:53:29,920 - #14 +
+INFO  21:53:29,920 - #10 2
+INFO  21:53:29,921 - #28 ;
+INFO  21:53:29,921 - #22 }
+INFO  21:53:29,921 - #9 int
+INFO  21:53:29,922 - #9 main
+INFO  21:53:29,922 - #30 (
+INFO  21:53:29,922 - #31 )
+INFO  21:53:29,922 - #21 {
+INFO  21:53:29,922 - #3 print
+INFO  21:53:29,922 - #30 (
+INFO  21:53:29,922 - #10 1
+INFO  21:53:29,922 - #31 )
+INFO  21:53:29,922 - #28 ;
+INFO  21:53:29,922 - #9 x
+INFO  21:53:29,922 - #25 =
+INFO  21:53:29,922 - #9 y
+INFO  21:53:29,922 - #14 +
+INFO  21:53:29,922 - #10 5
+INFO  21:53:29,923 - #14 +
+INFO  21:53:29,923 - #10 3
+INFO  21:53:29,923 - #28 ;
+INFO  21:53:29,923 - #3 print
+INFO  21:53:29,923 - #30 (
+INFO  21:53:29,923 - #10 2
+INFO  21:53:29,923 - #31 )
+INFO  21:53:29,923 - #28 ;
+INFO  21:53:29,923 - #9 k
+INFO  21:53:29,923 - #30 (
+INFO  21:53:29,924 - #9 a
+INFO  21:53:29,924 - #29 ,
+INFO  21:53:29,924 - #9 b
+INFO  21:53:29,924 - #31 )
+INFO  21:53:29,924 - #28 ;
+INFO  21:53:29,925 - #37 return
+INFO  21:53:29,925 - #10 1
+INFO  21:53:29,925 - #28 ;
+INFO  21:53:29,925 - #22 }
+INFO  21:53:29,925 - #22 }
+INFO  21:53:29,928 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  VarDeclarations(
+    ErrorVarSemi(
+    ) [ErrorVarSemi]
+    VarDecl(
+      Type(
+       char
+      ) [Type]
+      VarDecl_0(
+        SingleVar(
+         s
+        ) [SingleVar]
+      ) [VarDecl_0]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDecl(
+        MethodTypeName(
+          Type(
+           int
+          ) [Type]
+         k
+        ) [MethodTypeName]
+        FormParsParens(
+          NoFormalParam(
+          ) [NoFormalParam]
+        ) [FormParsParens]
+        VarDeclarations(
+          NoVarDecl(
+          ) [NoVarDecl]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarDecl_0(
+              SingleVar(
+               c
+              ) [SingleVar]
+            ) [VarDecl_0]
+          ) [VarDecl]
+        ) [VarDeclarations]
+        Statements(
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            MatchedStmt(
+              DesignatorStatement(
+                Assignment(
+                  Designator_1(
+                    DesignatorName(
+                     c
+                    ) [DesignatorName]
+                  ) [Designator_1]
+                  TermExpr(
+                    FactorTerm(
+                      NumConst(
+                       2
+                      ) [NumConst]
+                    ) [FactorTerm]
+                  ) [TermExpr]
+                ) [Assignment]
+              ) [DesignatorStatement]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            ReturnExpr(
+              AddExpr(
+                FactorTerm(
+                  Var(
+                    Designator_1(
+                      DesignatorName(
+                       c
+                      ) [DesignatorName]
+                    ) [Designator_1]
+                  ) [Var]
+                ) [FactorTerm]
+                Addop(
+                ) [Addop]
+                TermExpr(
+                  FactorTerm(
+                    NumConst(
+                     2
+                    ) [NumConst]
+                  ) [FactorTerm]
+                ) [TermExpr]
+              ) [AddExpr]
+            ) [ReturnExpr]
+          ) [MatchedStmt]
+        ) [Statements]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethodTypeName]
+      FormParsParens(
+        NoFormalParam(
+        ) [NoFormalParam]
+      ) [FormParsParens]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                NoStmt(
+                ) [NoStmt]
+                MatchedStmt(
+                  PrintStmt(
+                    TermExpr(
+                      FactorTerm(
+                        NumConst(
+                         1
+                        ) [NumConst]
+                      ) [FactorTerm]
+                    ) [TermExpr]
+                  ) [PrintStmt]
+                ) [MatchedStmt]
+              ) [Statements]
+              MatchedStmt(
+                DesignatorStatement(
+                  Assignment(
+                    Designator_1(
+                      DesignatorName(
+                       x
+                      ) [DesignatorName]
+                    ) [Designator_1]
+                    AddExpr(
+                      FactorTerm(
+                        Var(
+                          Designator_1(
+                            DesignatorName(
+                             y
+                            ) [DesignatorName]
+                          ) [Designator_1]
+                        ) [Var]
+                      ) [FactorTerm]
+                      Addop(
+                      ) [Addop]
+                      AddExpr(
+                        FactorTerm(
+                          NumConst(
+                           5
+                          ) [NumConst]
+                        ) [FactorTerm]
+                        Addop(
+                        ) [Addop]
+                        TermExpr(
+                          FactorTerm(
+                            NumConst(
+                             3
+                            ) [NumConst]
+                          ) [FactorTerm]
+                        ) [TermExpr]
+                      ) [AddExpr]
+                    ) [AddExpr]
+                  ) [Assignment]
+                ) [DesignatorStatement]
+              ) [MatchedStmt]
+            ) [Statements]
+            MatchedStmt(
+              PrintStmt(
+                TermExpr(
+                  FactorTerm(
+                    NumConst(
+                     2
+                    ) [NumConst]
+                  ) [FactorTerm]
+                ) [TermExpr]
+              ) [PrintStmt]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            DesignatorStatement(
+              FuncCall(
+                Designator_1(
+                  DesignatorName(
+                   k
+                  ) [DesignatorName]
+                ) [Designator_1]
+                Actuals(
+                  ActualParams(
+                    ActualParam(
+                      TermExpr(
+                        FactorTerm(
+                          Var(
+                            Designator_1(
+                              DesignatorName(
+                               a
+                              ) [DesignatorName]
+                            ) [Designator_1]
+                          ) [Var]
+                        ) [FactorTerm]
+                      ) [TermExpr]
+                    ) [ActualParam]
+                    TermExpr(
+                      FactorTerm(
+                        Var(
+                          Designator_1(
+                            DesignatorName(
+                             b
+                            ) [DesignatorName]
+                          ) [Designator_1]
+                        ) [Var]
+                      ) [FactorTerm]
+                    ) [TermExpr]
+                  ) [ActualParams]
+                ) [Actuals]
+              ) [FuncCall]
+            ) [DesignatorStatement]
+          ) [MatchedStmt]
+        ) [Statements]
+        MatchedStmt(
+          ReturnExpr(
+            TermExpr(
+              FactorTerm(
+                NumConst(
+                 1
+                ) [NumConst]
+              ) [FactorTerm]
+            ) [TermExpr]
+          ) [ReturnExpr]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:53:29,932 - ===================================
+INFO  21:53:29,934 -  Print count calls = 2
+INFO  21:53:29,934 -  Deklarisanih promenljivih ima = 2

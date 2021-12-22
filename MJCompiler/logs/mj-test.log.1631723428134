@@ -1,0 +1,256 @@
+INFO  18:29:53,249 - Compiling source file: C:\Users\Ogi\Desktop\workspace\MJCompiler\test\program.mj
+INFO  18:29:53,281 - #2 program
+INFO  18:29:53,281 - #9 MJProgram
+INFO  18:29:53,281 - #21 {
+INFO  18:29:53,282 - #6 void
+INFO  18:29:53,283 - #9 main
+INFO  18:29:53,283 - #30 (
+INFO  18:29:53,283 - #31 )
+INFO  18:29:53,283 - #9 bool
+INFO  18:29:53,284 - #9 x
+INFO  18:29:53,284 - #29 ,
+INFO  18:29:53,284 - #9 y
+INFO  18:29:53,284 - #28 ;
+INFO  18:29:53,285 - #21 {
+INFO  18:29:53,286 - #9 x
+INFO  18:29:53,287 - #25 =
+INFO  18:29:53,287 - #8 true
+INFO  18:29:53,287 - #28 ;
+INFO  18:29:53,288 - #9 y
+INFO  18:29:53,289 - #25 =
+INFO  18:29:53,289 - #8 true
+INFO  18:29:53,289 - #28 ;
+INFO  18:29:53,289 - #32 if
+INFO  18:29:53,294 - #30 (
+INFO  18:29:53,295 - #9 x
+INFO  18:29:53,295 - #12 &&
+INFO  18:29:53,295 - #9 y
+INFO  18:29:53,295 - #12 &&
+INFO  18:29:53,296 - #9 x
+INFO  18:29:53,296 - #43 !=
+INFO  18:29:53,296 - #9 y
+INFO  18:29:53,296 - #31 )
+INFO  18:29:53,297 - #21 {
+INFO  18:29:53,297 - #3 print
+INFO  18:29:53,297 - #30 (
+INFO  18:29:53,297 - #10 1
+INFO  18:29:53,297 - #31 )
+INFO  18:29:53,297 - #28 ;
+INFO  18:29:53,298 - #22 }
+INFO  18:29:53,298 - #33 else
+INFO  18:29:53,298 - #21 {
+INFO  18:29:53,298 - #3 print
+INFO  18:29:53,298 - #30 (
+INFO  18:29:53,298 - #10 2
+INFO  18:29:53,298 - #31 )
+INFO  18:29:53,299 - #28 ;
+INFO  18:29:53,299 - #22 }
+INFO  18:29:53,299 - #22 }
+INFO  18:29:53,299 - #22 }
+INFO  18:29:53,315 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  NoDecls(
+  ) [NoDecls]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodVoidType(
+       main
+      ) [MethodVoidType]
+      NoFormalParam(
+      ) [NoFormalParam]
+      MethodVarDeclList(
+        NoMethodVarDecl(
+        ) [NoMethodVarDecl]
+        VarDecl(
+          Type(
+           bool
+          ) [Type]
+          VarDecl_1(
+            VarDecl_0(
+              Variable(
+               x
+              ) [Variable]
+            ) [VarDecl_0]
+            Variable(
+             y
+            ) [Variable]
+          ) [VarDecl_1]
+        ) [VarDecl]
+      ) [MethodVarDeclList]
+      Statements(
+        Statements(
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            StatementDesignator(
+              Assignment(
+                Designator_1(
+                 x
+                ) [Designator_1]
+                PosExpr(
+                  Term(
+                    FactorBoolConst(
+                     true
+                    ) [FactorBoolConst]
+                    NoMoreFactor(
+                    ) [NoMoreFactor]
+                  ) [Term]
+                  NoMoreTerm(
+                  ) [NoMoreTerm]
+                ) [PosExpr]
+              ) [Assignment]
+            ) [StatementDesignator]
+          ) [Statements]
+          StatementDesignator(
+            Assignment(
+              Designator_1(
+               y
+              ) [Designator_1]
+              PosExpr(
+                Term(
+                  FactorBoolConst(
+                   true
+                  ) [FactorBoolConst]
+                  NoMoreFactor(
+                  ) [NoMoreFactor]
+                ) [Term]
+                NoMoreTerm(
+                ) [NoMoreTerm]
+              ) [PosExpr]
+            ) [Assignment]
+          ) [StatementDesignator]
+        ) [Statements]
+        StmtIfElse(
+          IfWord(
+          ) [IfWord]
+          Cond(
+            ConditionTerm(
+              CondTermAnd(
+                CondTermAnd(
+                  CondTermFact(
+                    CondFactExpr(
+                      PosExpr(
+                        Term(
+                          FactorDesignator(
+                            Designator_1(
+                             x
+                            ) [Designator_1]
+                          ) [FactorDesignator]
+                          NoMoreFactor(
+                          ) [NoMoreFactor]
+                        ) [Term]
+                        NoMoreTerm(
+                        ) [NoMoreTerm]
+                      ) [PosExpr]
+                    ) [CondFactExpr]
+                  ) [CondTermFact]
+                  CondFactExpr(
+                    PosExpr(
+                      Term(
+                        FactorDesignator(
+                          Designator_1(
+                           y
+                          ) [Designator_1]
+                        ) [FactorDesignator]
+                        NoMoreFactor(
+                        ) [NoMoreFactor]
+                      ) [Term]
+                      NoMoreTerm(
+                      ) [NoMoreTerm]
+                    ) [PosExpr]
+                  ) [CondFactExpr]
+                ) [CondTermAnd]
+                CondFactRelop(
+                  PosExpr(
+                    Term(
+                      FactorDesignator(
+                        Designator_1(
+                         x
+                        ) [Designator_1]
+                      ) [FactorDesignator]
+                      NoMoreFactor(
+                      ) [NoMoreFactor]
+                    ) [Term]
+                    NoMoreTerm(
+                    ) [NoMoreTerm]
+                  ) [PosExpr]
+                  RelopNE(
+                  ) [RelopNE]
+                  PosExpr(
+                    Term(
+                      FactorDesignator(
+                        Designator_1(
+                         y
+                        ) [Designator_1]
+                      ) [FactorDesignator]
+                      NoMoreFactor(
+                      ) [NoMoreFactor]
+                    ) [Term]
+                    NoMoreTerm(
+                    ) [NoMoreTerm]
+                  ) [PosExpr]
+                ) [CondFactRelop]
+              ) [CondTermAnd]
+            ) [ConditionTerm]
+          ) [Cond]
+          IfBody(
+            StmtList(
+              Statements(
+                NoStmt(
+                ) [NoStmt]
+                StmtPrint(
+                  PosExpr(
+                    Term(
+                      FactorNumConst(
+                       1
+                      ) [FactorNumConst]
+                      NoMoreFactor(
+                      ) [NoMoreFactor]
+                    ) [Term]
+                    NoMoreTerm(
+                    ) [NoMoreTerm]
+                  ) [PosExpr]
+                ) [StmtPrint]
+              ) [Statements]
+            ) [StmtList]
+          ) [IfBody]
+          StmtList(
+            Statements(
+              NoStmt(
+              ) [NoStmt]
+              StmtPrint(
+                PosExpr(
+                  Term(
+                    FactorNumConst(
+                     2
+                    ) [FactorNumConst]
+                    NoMoreFactor(
+                    ) [NoMoreFactor]
+                  ) [Term]
+                  NoMoreTerm(
+                  ) [NoMoreTerm]
+                ) [PosExpr]
+              ) [StmtPrint]
+            ) [Statements]
+          ) [StmtList]
+        ) [StmtIfElse]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:29:53,316 - ===================================
+INFO  18:29:53,320 - Obradjuje se funkcija main (povratni tip: void) na liniji 5
+INFO  18:29:53,321 - Deklarisana promenljiva x (tip: bool) na liniji 5
+INFO  18:29:53,321 - Deklarisana promenljiva y (tip: bool) na liniji 5
+INFO  18:29:53,321 - ===================================
+INFO  18:29:53,324 - Usao u if pc = 7
+INFO  18:29:53,324 - AND pc = 17 na liniji 11
+INFO  18:29:53,325 - AND pc = 22 na liniji 11
+INFO  18:29:53,325 - Kraj uslova pc = 22 na liniji 11
+INFO  18:29:53,325 - Kraj if-a pc = 25 na liniji 11
+INFO  18:29:53,365 - Kraj else-a pc = 31 na liniji 11
+INFO  18:29:53,366 - Parsiranje uspesno zavrseno!

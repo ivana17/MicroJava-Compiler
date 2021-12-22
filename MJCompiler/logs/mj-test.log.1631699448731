@@ -1,0 +1,202 @@
+INFO  11:48:46,375 - Compiling source file: C:\Users\Ogi\Desktop\workspace\MJCompiler\test\program.mj
+INFO  11:48:46,407 - #2 program
+INFO  11:48:46,407 - #9 MJProgram
+INFO  11:48:46,407 - #21 {
+INFO  11:48:46,408 - #6 void
+INFO  11:48:46,408 - #9 main
+INFO  11:48:46,408 - #30 (
+INFO  11:48:46,408 - #31 )
+INFO  11:48:46,409 - #21 {
+INFO  11:48:46,410 - #32 if
+INFO  11:48:46,410 - #30 (
+INFO  11:48:46,411 - #8 false
+INFO  11:48:46,411 - #31 )
+INFO  11:48:46,412 - #21 {
+INFO  11:48:46,413 - #3 print
+INFO  11:48:46,413 - #30 (
+INFO  11:48:46,413 - #11 i
+INFO  11:48:46,413 - #31 )
+INFO  11:48:46,413 - #28 ;
+INFO  11:48:46,413 - #3 print
+INFO  11:48:46,413 - #30 (
+INFO  11:48:46,413 - #11 f
+INFO  11:48:46,413 - #31 )
+INFO  11:48:46,414 - #28 ;
+INFO  11:48:46,414 - #22 }
+INFO  11:48:46,415 - #33 else
+INFO  11:48:46,415 - #21 {
+INFO  11:48:46,415 - #3 print
+INFO  11:48:46,415 - #30 (
+INFO  11:48:46,415 - #11 e
+INFO  11:48:46,415 - #31 )
+INFO  11:48:46,415 - #28 ;
+INFO  11:48:46,416 - #3 print
+INFO  11:48:46,416 - #30 (
+INFO  11:48:46,416 - #11 l
+INFO  11:48:46,416 - #31 )
+INFO  11:48:46,416 - #28 ;
+INFO  11:48:46,416 - #3 print
+INFO  11:48:46,416 - #30 (
+INFO  11:48:46,416 - #11 s
+INFO  11:48:46,416 - #31 )
+INFO  11:48:46,416 - #28 ;
+INFO  11:48:46,416 - #3 print
+INFO  11:48:46,416 - #30 (
+INFO  11:48:46,416 - #11 e
+INFO  11:48:46,416 - #31 )
+INFO  11:48:46,416 - #28 ;
+INFO  11:48:46,416 - #22 }
+INFO  11:48:46,417 - #22 }
+INFO  11:48:46,417 - #22 }
+INFO  11:48:46,434 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  NoDecls(
+  ) [NoDecls]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodVoidType(
+       main
+      ) [MethodVoidType]
+      NoFormalParam(
+      ) [NoFormalParam]
+      NoMethodVarDecl(
+      ) [NoMethodVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        StmtIfElse(
+          IfWord(
+          ) [IfWord]
+          CondDerived1(
+            ConditionTerm(
+              CondTermFact(
+                CondFactExpr(
+                  PosExpr(
+                    Term(
+                      FactorBoolConst(
+                       false
+                      ) [FactorBoolConst]
+                      NoMoreFactor(
+                      ) [NoMoreFactor]
+                    ) [Term]
+                    NoMoreTerm(
+                    ) [NoMoreTerm]
+                  ) [PosExpr]
+                ) [CondFactExpr]
+              ) [CondTermFact]
+            ) [ConditionTerm]
+          ) [CondDerived1]
+          IfBody(
+            StmtList(
+              Statements(
+                Statements(
+                  NoStmt(
+                  ) [NoStmt]
+                  StmtPrint(
+                    PosExpr(
+                      Term(
+                        FactorCharConst(
+                         i
+                        ) [FactorCharConst]
+                        NoMoreFactor(
+                        ) [NoMoreFactor]
+                      ) [Term]
+                      NoMoreTerm(
+                      ) [NoMoreTerm]
+                    ) [PosExpr]
+                  ) [StmtPrint]
+                ) [Statements]
+                StmtPrint(
+                  PosExpr(
+                    Term(
+                      FactorCharConst(
+                       f
+                      ) [FactorCharConst]
+                      NoMoreFactor(
+                      ) [NoMoreFactor]
+                    ) [Term]
+                    NoMoreTerm(
+                    ) [NoMoreTerm]
+                  ) [PosExpr]
+                ) [StmtPrint]
+              ) [Statements]
+            ) [StmtList]
+          ) [IfBody]
+          StmtList(
+            Statements(
+              Statements(
+                Statements(
+                  Statements(
+                    NoStmt(
+                    ) [NoStmt]
+                    StmtPrint(
+                      PosExpr(
+                        Term(
+                          FactorCharConst(
+                           e
+                          ) [FactorCharConst]
+                          NoMoreFactor(
+                          ) [NoMoreFactor]
+                        ) [Term]
+                        NoMoreTerm(
+                        ) [NoMoreTerm]
+                      ) [PosExpr]
+                    ) [StmtPrint]
+                  ) [Statements]
+                  StmtPrint(
+                    PosExpr(
+                      Term(
+                        FactorCharConst(
+                         l
+                        ) [FactorCharConst]
+                        NoMoreFactor(
+                        ) [NoMoreFactor]
+                      ) [Term]
+                      NoMoreTerm(
+                      ) [NoMoreTerm]
+                    ) [PosExpr]
+                  ) [StmtPrint]
+                ) [Statements]
+                StmtPrint(
+                  PosExpr(
+                    Term(
+                      FactorCharConst(
+                       s
+                      ) [FactorCharConst]
+                      NoMoreFactor(
+                      ) [NoMoreFactor]
+                    ) [Term]
+                    NoMoreTerm(
+                    ) [NoMoreTerm]
+                  ) [PosExpr]
+                ) [StmtPrint]
+              ) [Statements]
+              StmtPrint(
+                PosExpr(
+                  Term(
+                    FactorCharConst(
+                     e
+                    ) [FactorCharConst]
+                    NoMoreFactor(
+                    ) [NoMoreFactor]
+                  ) [Term]
+                  NoMoreTerm(
+                  ) [NoMoreTerm]
+                ) [PosExpr]
+              ) [StmtPrint]
+            ) [Statements]
+          ) [StmtList]
+        ) [StmtIfElse]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  11:48:46,435 - ===================================
+INFO  11:48:46,438 - Obradjuje se funkcija main (povratni tip: void) na liniji 5
+INFO  11:48:46,439 - ===================================
+INFO  11:48:46,442 - Usao u if
+INFO  11:48:46,442 - Parsiranje uspesno zavrseno!

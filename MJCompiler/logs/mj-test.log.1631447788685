@@ -1,0 +1,143 @@
+INFO  13:51:30,800 - Compiling source file: C:\Users\Ogi\Desktop\workspace\MJCompiler\test\program.mj
+INFO  13:51:30,837 - #2 program
+INFO  13:51:30,837 - #9 MJProgram
+INFO  13:51:30,837 - #9 int
+INFO  13:51:30,838 - #9 x
+INFO  13:51:30,838 - #29 ,
+INFO  13:51:30,839 - #9 y
+INFO  13:51:30,839 - #23 [
+INFO  13:51:30,839 - #24 ]
+INFO  13:51:30,839 - #29 ,
+INFO  13:51:30,839 - #9 z
+INFO  13:51:30,839 - #28 ;
+INFO  13:51:30,839 - #5 const
+INFO  13:51:30,840 - #9 char
+INFO  13:51:30,840 - #9 i
+INFO  13:51:30,840 - #25 =
+INFO  13:51:30,840 - #11 w
+INFO  13:51:30,840 - #28 ;
+INFO  13:51:30,841 - #21 {
+INFO  13:51:30,841 - #6 void
+INFO  13:51:30,842 - #9 main
+INFO  13:51:30,842 - #30 (
+INFO  13:51:30,842 - #31 )
+INFO  13:51:30,844 - #21 {
+INFO  13:51:30,844 - #22 }
+INFO  13:51:30,845 - #6 void
+INFO  13:51:30,845 - #9 f
+INFO  13:51:30,845 - #30 (
+INFO  13:51:30,845 - #9 int
+INFO  13:51:30,846 - #9 x
+INFO  13:51:30,846 - #31 )
+INFO  13:51:30,846 - #9 char
+INFO  13:51:30,846 - #9 y
+INFO  13:51:30,846 - #28 ;
+INFO  13:51:30,846 - #21 {
+INFO  13:51:30,846 - #22 }
+INFO  13:51:30,846 - #22 }
+INFO  13:51:30,858 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  Declarations(
+    Declarations(
+      NoDecls(
+      ) [NoDecls]
+      ProgVar(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDecl_1(
+            VarDecl_1(
+              VarDecl_0(
+                Variable(
+                 x
+                ) [Variable]
+              ) [VarDecl_0]
+              VarArray(
+               y
+              ) [VarArray]
+            ) [VarDecl_1]
+            Variable(
+             z
+            ) [Variable]
+          ) [VarDecl_1]
+        ) [VarDecl]
+      ) [ProgVar]
+    ) [Declarations]
+    ProgConst(
+      ConstDecl(
+        Type(
+         char
+        ) [Type]
+        ConstDecl_0(
+          SingleConst(
+           i
+            CharConst(
+             w
+            ) [CharConst]
+          ) [SingleConst]
+        ) [ConstDecl_0]
+      ) [ConstDecl]
+    ) [ProgConst]
+  ) [Declarations]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDecl(
+        MethodVoidType(
+         main
+        ) [MethodVoidType]
+        NoFormalParam(
+        ) [NoFormalParam]
+        NoMethodVarDecl(
+        ) [NoMethodVarDecl]
+        NoStmt(
+        ) [NoStmt]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodVoidType(
+       f
+      ) [MethodVoidType]
+      FormalParams(
+        SingleFormalParamDecl(
+          FormalParDecl(
+            Type(
+             int
+            ) [Type]
+           x
+          ) [FormalParDecl]
+        ) [SingleFormalParamDecl]
+      ) [FormalParams]
+      MethodVarDeclList(
+        NoMethodVarDecl(
+        ) [NoMethodVarDecl]
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+          VarDecl_0(
+            Variable(
+             y
+            ) [Variable]
+          ) [VarDecl_0]
+        ) [VarDecl]
+      ) [MethodVarDeclList]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  13:51:30,858 - ===================================
+INFO  13:51:30,862 - Deklarisana promenljiva x (tip: int) na liniji 2
+INFO  13:51:30,862 - Deklarisan niz y (tip: int) na liniji 2
+INFO  13:51:30,862 - Deklarisana promenljiva z (tip: int) na liniji 2
+INFO  13:51:30,862 - Deklarisana konstanta i (tip: char, vrednost: w) na liniji 3
+INFO  13:51:30,863 - Obradjuje se funkcija main (povratni tip: void) na liniji 5
+INFO  13:51:30,863 - Obradjuje se funkcija f (povratni tip: void) na liniji 9
+INFO  13:51:30,863 - Deklarisan niz y (tip: char) na liniji 9
+INFO  13:51:30,863 - ===================================
+INFO  13:51:30,864 - Parsiranje uspesno zavrseno!
